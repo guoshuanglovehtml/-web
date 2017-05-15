@@ -1,0 +1,123 @@
+fn({"errno": 0,
+	"data":{
+	
+	//横幅内容
+	"content":[
+	     {"images":"img/person_center/33.png","name":"Remand_m","grade":"等级：Lv.24 现居：浙江","emand":"关注","fee":"留言"},
+	     {"images":"img/DS_page2/banner_2.jpg","name":"Remand_m","grade":"等级：Lv.24 现居：浙江","emand":"关注","fee":"留言"}
+            ],
+            
+    //内容区内容        
+    "contents":[
+            {"image1":"img/user/46.png"},
+            {"image1":"img/user/47.png"},
+            {"image1":"img/user/48.png"}
+            ],
+                        
+            "contents_bottom":[
+            {"image2":"img/user/49.png","titles":"【美美的下一站.漠河】2.15.02","contentes":"的后果负一个人孤独覅胡覅额负的UI是丢UI发hiu而非胡日和的覅胡覅仺就好比发动机回复你的发挥 交话费的横幅不如 和符合ID胡覅度覅返回IE汇入的横幅的更换非国有交电话费的尽快回复对方交话费的复有人故意计划表烦得<br/>&nbsp;&nbsp;&nbsp;&nbsp;很复合肥的横幅股东会京东方会变得很法规的举报电话就很方便的房价的哈哈的发布很方便的很方便电话方便接电话方便剪刀还记得方便的话发挥地方合计得分的合法化的风格动画播放都不回复回家方便的话方便<br/>&nbsp;&nbsp;&nbsp;&nbsp;的话接电话方便绝对不会房交会的发布活动板房接电话是丢回复你","jiaozhu":"阅读量：25万"},
+            {"image2":"img/user/50.png","titles":"【美美的下一站.漠河】2.15.02","contentes":"的后果负一个人孤独覅胡覅额负的UI是丢UI发hiu而非胡日和的覅胡覅仺就好比发动机回复你的发挥 交话费的横幅不如 和符合ID胡覅度覅返回IE汇入的横幅的更换非国有交电话费的尽快回复对方交话费的复有人故意计划表烦得很复<br/>&nbsp;&nbsp;&nbsp;&nbsp;合肥的横幅股东会京东方会变得很法规的举报电话就很方便的房价的哈哈的发布很方便的很方便电话方便接电话方便剪刀还记得方便的话发挥地方合计得分的合法化的风格动画播放都不回复回家方便的话方<br/>&nbsp;&nbsp;&nbsp;&nbsp;便的话接电话方便绝对不会房交会的发布活动板房接电话是丢回复你","jiaozhu":"阅读量：25万"},
+            {"image2":"img/user/51.png","titles":"【美美的下一站.漠河】2.15.02","contentes":"的后果负一个人孤独覅胡覅额负的UI是丢UI发hiu而非胡日和的覅胡覅仺就好比发动机回复你的发挥 交话费的横幅不如 和符合ID胡覅度覅返回IE汇入的横幅的更换非国有交电话费的尽快回复对方交话费的复有人故意计划表<br/>&nbsp;&nbsp;&nbsp;&nbsp;烦得很复合肥的横幅股东会京东方会变得很法规的举报电话就很方便的房价的哈哈的发布很方便的很方便电话方便接电话方便剪刀还记得方便的话发挥地方合计得分的合法化的风格动画播放都不回复回家方便的<br/>&nbsp;&nbsp;&nbsp;&nbsp;话方便的话接电话方便绝对不会房交会的发布活动板房接电话是丢回复你","jiaozhu":"阅读量：25万"}
+            ],
+                        
+            "content_bottom1":[
+            {"image3":"img/user/52.png","explain":"<p>hskdhs</p><p>fdhfbgdjsdfsfsfsfhgfhf</p><p>dhdfddffggghghh</p><p>fggghghhhgdh[p</p>"},
+            {"image3":"img/user/53.png","explain":"<p>hgdh[plsggfhjdb</p><p>fdhfbgdjsdfsfsfsfhg</p><p>dhdfdgffghh</p><p>dggghghhhgdh[p</p>"}
+            ],
+            
+            "cont":[
+            {"image1":"img/DS_page2/banner_1.jpg"},
+            {"image1":"img/user/47.png"},
+            {"image1":"img/user/48.png"}
+            ],
+            
+            "cont1":[
+            {"image1":"img/FL_page/content_1.png"},
+            {"image1":"img/FL_page/content_2.png"},
+            {"image1":"img/FL_page/content_3.png"},
+            {"image1":"img/FL_page/content_4.png"},
+            {"image1":"img/FL_page/content_5.png"},
+            {"image1":"img/FL_page/content_6.png"}
+            ],
+            
+            "cont2":[
+            {"image1":"img/FL_page/content_1.png","image2":"img/FL_page/content_8.png","image3":"img/FL_page/content_7.png"},
+            {"image1":"img/FL_page/content_1.png","image2":"img/FL_page/content_9.png","image3":"img/FL_page/content_8.png"},
+            {"image1":"img/FL_page/content_1.png","image2":"img/FL_page/content_10.png","image3":"img/FL_page/content_10.png"},
+            {"image1":"img/FL_page/content_1.png","image2":"img/FL_page/content_11.png","image3":"img/FL_page/content_13.png"},
+            {"image1":"img/FL_page/content_1.png","image2":"img/FL_page/content_12.png","image3":"img/FL_page/content_11.png"},
+            {"image1":"img/FL_page/content_1.png","image2":"img/FL_page/content_13.png","image3":"img/FL_page/content_5.png"}
+            ],
+            
+            "dibai":[
+            {"contd":"<h1>迪拜</h1><p>多地直飞迪拜6-7天自由行(顶级浮潜/一架全包/儿童吃住免费/赠送spa体验和15分钟摄影)</p><span>查看详情</span>"},
+            {"contd":"<h1>迪拜</h1><p>多地直飞迪拜6-7天自由行(顶级浮潜/一架全包/儿童吃住免费/赠送spa体验和15分钟摄影)</p><span>查看详情</span>"},
+            {"contd":"<h1>迪拜</h1><p>多地直飞迪拜6-7天自由行(顶级浮潜/一架全包/儿童吃住免费/赠送spa体验和15分钟摄影)</p><span>查看详情</span>"},
+            {"contd":"<h1>迪拜</h1><p>多地直飞迪拜6-7天自由行(顶级浮潜/一架全包/儿童吃住免费/赠送spa体验和15分钟摄影)</p><span>查看详情</span>"},
+            {"contd":"<h1>迪拜</h1><p>多地直飞迪拜6-7天自由行(顶级浮潜/一架全包/儿童吃住免费/赠送spa体验和15分钟摄影)</p><span>查看详情</span>"},
+            {"contd":"<h1>迪拜</h1><p>多地直飞迪拜6-7天自由行(顶级浮潜/一架全包/儿童吃住免费/赠送spa体验和15分钟摄影)</p><span>查看详情</span>"}
+            ],
+            
+            "dibiao":[
+            {"image1":"img/FL_page/content_1.png","contd":"<h1>糖心草莓营养早餐</h1><span><img src='img/slice/定位-01-拷贝@2x.png'/>希腊</span>"},
+            {"image1":"img/FL_page/content_2.png","contd":"<h1>韩国烧烤</h1><span><img src='img/slice/定位-01-拷贝@2x.png'/>济州岛</span>"},
+            {"image1":"img/FL_page/content_5.png","contd":"<h1>三文鱼</h1><span><img src='img/slice/定位-01-拷贝@2x.png'/>日本</span>"},
+            {"image1":"img/FL_page/content_4.png","contd":"<h1>披萨</h1><span><img src='img/slice/定位-01-拷贝@2x.png'/>纽约</span>"},
+            {"image1":"img/FL_page/content_6.png","contd":"<h1>芝士焗虾</h1><span><img src='img/slice/定位-01-拷贝@2x.png'/>澳大利亚</span>"}
+            ],
+            
+            "lvyou":[
+            {"image1":"img/FL_page/content_5.png","contd":"<h1>瑜伽</h1><span><img src='img/slice/定位-01-拷贝@2x.png'/>澳大利亚</span>"},
+            {"image1":"img/FL_page/content_3.png","contd":"<h1>滑雪</h1><span><img src='img/slice/定位-01-拷贝@2x.png'/>拉斯维加斯</span>"},
+            {"image1":"img/FL_page/content_2.png","contd":"<h1>赛船</h1><span><img src='img/slice/定位-01-拷贝@2x.png'/>伊拉克</span>"},
+            {"image1":"img/FL_page/content_1.png","contd":"<h1>徒步</h1><span><img src='img/slice/定位-01-拷贝@2x.png'/>西藏</span>"}
+            ],
+            
+            "cont3":[
+            {"image6":"img/person_center/34.png","titles":"欧尼","neirong":"生命的意义不仅为了活着，更多的意义等着你来挖掘"},
+            {"image1":"img/person_center/35.png","image2":"img/person_center/36.png","image3":"img/person_center/37.png"},
+            {"image6":"img/person_center/38.png","titles":"欧尼","neirong":"生命的意义不仅为了活着，更多的意义等着你来挖掘"}
+            ],
+             
+            "cont4":[
+            {"image1":"img/person_center/39.png","image2":"img/person_center/40.png","image3":"img/person_center/41.png"}
+            ],  
+            
+            
+            "contents_bottoms":[
+            {"image2":"img/user/49.png","titles":"【美美的下一站.漠河】2.15.02","contentes":"的后果负一个人孤独覅胡覅额负的UI是丢UI发hiu而非胡日和的覅胡覅仺就好比发动机回复你的发挥 交话费的横幅不如 和符合ID胡覅度覅返回IE汇入的横幅的更换非国有交电话费的尽快回复对方交话费的复有人故意计划表烦得<br/>&nbsp;&nbsp;&nbsp;&nbsp;很复合肥的横幅股东会京东方会变得很法规的举报电话就很方便的房价的哈哈的发布很方便的很方便电话方便接电话方便剪刀还记得方便的话发挥地方合计得分的合法化的风格动画播放都不回复回家方便的话方便<br/>&nbsp;&nbsp;&nbsp;&nbsp;的话接电话方便绝对不会房交会的发布活动板房接电话是丢回复你","jiaozhu":"阅读量：25万","image3":"img/user/52.png","explain":"<p>hskdhs</p><p>fdhfbgdjsdfsfsfsfhgfhf</p><p>dhdfddffggghghh</p><p>fggghghhhgdh[p</p>"},
+            {"image2":"img/user/50.png","titles":"【美美的下一站.漠河】2.15.02","contentes":"的后果负一个人孤独覅胡覅额负的UI是丢UI发hiu而非胡日和的覅胡覅仺就好比发动机回复你的发挥 交话费的横幅不如 和符合ID胡覅度覅返回IE汇入的横幅的更换非国有交电话费的尽快回复对方交话费的复有人故意计划表烦得很复<br/>&nbsp;&nbsp;&nbsp;&nbsp;合肥的横幅股东会京东方会变得很法规的举报电话就很方便的房价的哈哈的发布很方便的很方便电话方便接电话方便剪刀还记得方便的话发挥地方合计得分的合法化的风格动画播放都不回复回家方便的话方<br/>&nbsp;&nbsp;&nbsp;&nbsp;便的话接电话方便绝对不会房交会的发布活动板房接电话是丢回复你","jiaozhu":"阅读量：25万","image3":"img/user/53.png","explain":"<p>hgdh[plsggfhjdb</p><p>fdhfbgdjsdfsfsfsfhg</p><p>dhdfdgffghh</p><p>dggghghhhgdh[p</p>"}
+            ],
+            
+            "bottom_content":[
+            {"img1":"img/person_center/33.png","name":"小达叔叔","time":"09-09 08:59","content":"大神，在那混，不顾过渡语过一会"},
+            {"img1":"img/person_center/34.png","name":"艾斯艾斯","time":"09-09 08:59","content":"大神，在那混，不顾过渡语过一会"},
+            {"img1":"img/person_center/38.png","name":"也许，也许","time":"09-09 08:59","content":"大神，在那混，不顾过渡语过一会"}
+            ],
+            
+            //结伴儿内容
+            "partner_img":[
+            {"img":"img/user/46.png","img1":"img/user/49.png","img2":"img/user/49.png","img3":"img/user/49.png"},
+            {"img":"img/user/47.png","img1":"img/user/50.png","img2":"img/user/51.png","img3":"img/user/47.png"},
+            {"img":"img/user/46.png","img1":"img/user/51.png","img2":"img/user/50.png","img3":"img/user/51.png"},
+            {"img":"img/user/48.png","img1":"img/user/49.png","img2":"img/user/46.png","img3":"img/user/50.png"},
+            {"img":"img/user/46.png","img1":"img/user/48.png","img2":"img/user/50.png","img3":"img/user/48.png"}
+            ],
+            
+            "partner_img1":[
+            {"img":"img/foreign/content_16.png","img1":"img/foreign/content_15.png","img2":"img/foreign/content_12.png","img3":"img/foreign/content_16.png"},
+            {"img":"img/user/53.png","img1":"img/foreign/content_16.png","img2":"img/foreign/content_10.png","img3":"img/foreign/content_3.png"},
+            ], 
+            
+              "partner_cont":[
+              {"conts":"<hr/><p>88天，22个国家，44个城市，从骑行到背包，我有故事，你有酒吗</p><p>88天，22个国家，44个城市，从骑行到背包，我有故事，你有酒吗</p><p>88天，22个国家，44个城市，从骑行到背包，我有故事，你有酒吗</p><p>88天，22个国家，44个城市，从骑行到背包，我有故事，你有酒吗</p><p>88天，22个国家，44个城市，从骑行到背包，我有故事，你有酒吗</p><p>88天，22个国家，44个城市，从骑行到背包，我有故事，你有酒吗</p><p>88天，22个国家，44个城市，我有故事，你有酒吗</p>"}
+              ],
+              
+          "partner_imgs":[
+            {"img":"img/user/46.png","img1":"img/user/47.png","img2":"img/user/46.png","img3":"img/user/48.png"},
+            {"img":"img/user/47.png","img1":"img/user/48.png","img2":"img/user/47.png","img3":"img/user/47.png"},
+            {"img":"img/user/48.png","img1":"img/user/46.png","img2":"img/user/48.png","img3":"img/user/46.png"},
+            {"img":"img/user/47.png","img1":"img/user/46.png","img2":"img/user/46.png","img3":"img/user/47.png"}
+            ],   
+	    }
+	   })

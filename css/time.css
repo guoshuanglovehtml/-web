@@ -1,0 +1,65 @@
+/**
+ + ---------------------------------------- +
+ + 日历组件 v1.0
+ + Author: Luzhichao
+ + QQ: 190135180
+ + Mail: luzhichao@shiqutech.com
+ + ---------------------------------------- +
+ + Date: 2012-05-21
+ + ---------------------------------------- +
+**/
+.calendar{position:relative;float:left;clear:both;padding:0 0px;background:#FFF;margin-top:2px; background:url(../img/images/xian.gif) no-repeat center;}
+.cal-container{float:left;margin:10px 10px 0;}
+.calendar dl{width:183px;color:#404040;font:12px/22px Tahoma;margin:10px 10px 0;}
+.calendar dl.one{width:100%;}
+.calendar dl,.calendar dt,.calendar dd{text-align:center;margin:0;padding:0;}
+.calendar dt{float:left;width:26px;line-height:22px;background:#d7d7d7;}
+.calendar dt.date{width:100%;margin:0;background:#fff;padding-bottom:10px;color:#404040;}
+.calendar dt.dateMonth{width:240px;margin:0;background:#fff;padding-bottom:10px;color:#404040;}
+.calendar dt.dateMonth a{float:left;line-height:22px;color:#404040;width:40px;text-decoration:none;}
+.calendar dt.date div{margin-bottom:5px;}
+.calendar dt.date select{font-size:12px;font-family:inherit;margin:0 5px;}
+.time-end dt{width:35px;}
+.time-e dt{width:35px;}
+.calendar dd{clear:both;width:100%;height:139px;color:#404040;}
+.calendar dd a,.calendar dd a span{float:left;width:25px;height:22px;color:#404040;overflow:hidden;text-decoration:none;background:url(../img/images/list.png) no-repeat -999px -999px;margin:1px 0 0 1px;outline:none;}
+.calendar dd a.selected,.calendar dd a.start-date{color:#fff;}
+.calendar dd a:hover,.calendar dd a.select-range:hover{color:#3f3f3f;}
+.calendar dd a.disabled,.calendar dd a.disabled:hover{color:#DCDCDC;cursor:default;background:transparent!important;}
+.calendar dd a span{display:block;width:25px;height:22px;margin:0;cursor:pointer;}
+.time-end dd a{width:34px;}
+.time-e dd a{width:34px;}
+.cal-prev,.cal-next,.cal-close{position:absolute;cursor:pointer;overflow:hidden;text-indent:-9999px;background:url(../img/images/ico.png) no-repeat;}
+.cal-prev,.cal-next{top:3px;width:20px;height:38px;}
+.cal-prev{left:10px;background-position:0 -25px;}
+.cal-next{right:10px;background-position:-20px -25px;}
+.time-end .cal-next{right:158px;background-position:-20px -25px;}
+.time-e .cal-next{right:10px;background-position:-20px -25px;}
+.cal-close{top:-23px;right:5px;width:17px;height:17px;background-position:-40px -25px;}
+.date-info,.date-info-start,.date-info-end{position:absolute;height:26px;line-height:15px;overflow:hidden;top:3px;right:10px;font-size:12px;color:#999;padding-right:37px;font-weight:normal; text-indent:-9999px;}
+.date-info-start{background-position:right -63px;}
+.date-info-end{background-position:right -63px;}
+
+.cal-msg{background:url(../img/images/top_bg.jpg) no-repeat;height:25px;padding-left:3px;}
+.cal-msg span{color:#fff;font-size:12px;text-align:center;width:100%;height:100%;float:right;line-height:25px;}
+
+
+
+
+.parent{float:left;text-indent:0px;}
+
+
+.f-text{width:103px;height:33px;color:#007cc6;line-height:33px;font-family:Arial; border:0px none;margin:0px;padding:0 0 0 8px;background:url(../img/images/inp.jpg) no-repeat;}
+.f-textDate{width:186px;height:33px;color:#007cc6;line-height:33px;font-family:Arial; border:0px none;margin:0px;padding:0 0 0 8px;background:url(../img/images/inp1.jpg) no-repeat;}
+
+.timeHour{width:142px;height:300px;float:left;border-left:1px solid #d7d7d7;display:inline;margin-top:6px;}
+.hour{width:71px;height:100%;float:left;}
+.hour span{width:71px;height:30px;float:left;text-align:center;font-size:12px;color:#404040;line-height:40px;}
+.hour dfn{float:left;padding-left:10px;font-style:normal;}
+.hour a{width:25px;height:22px;float:left;text-align:center;font-size:12px;color:#404040;line-height:22px;text-decoration:none;font-weight:normal;}
+
+.hour a.disabled,.hour a.disabled:hover{color:#DCDCDC;cursor:default;background:transparent!important;}
+
+.oneDate{font-size:12px;color:#404040; font-weight:normal;}
+.oneDate input{float:left;}
+.oneDate code{font-style:normal;float:left;padding:2px 0 0 2px;}

@@ -1,0 +1,869 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  width: 1924px;
+  font-family: "微软雅黑";
+
+  font:12px "Open Sans","Helvetica Neue",Helvetica,Arial,STHeiti,"Microsoft Yahei",sans-serif;
+
+  margin: 0 auto;
+}
+
+
+/*导航条开始*/
+.top_bg{
+  width: 100%;
+  height: 68px;
+  z-index: 3;
+  background-color: rgba(0,0,0,0.4);
+  position: fixed;
+  /*top: 0;*/
+  left: 0;
+}
+
+.top{
+  width: 1860px;
+ /* position: fixed;*/
+/*  left:20%;*/
+  margin: 0 auto;
+  height: 68px;
+}
+
+/*logo*/
+.top .logo{
+  height: 48px;
+  margin-top: 10px;
+  float: left;
+  margin-right: 44px;
+  cursor: pointer;
+}
+
+.logo img{
+  height: 100%;
+}
+/*导航nav*/
+.nav{
+  float: left;
+  height:40px; 
+  line-height: 40px;
+  margin-top: 14px;
+}
+
+.nav a{
+  display: block;
+  float: left;
+  margin-right: 38px;
+  font-size: 22px;
+  color: #fff;
+}
+
+.nav a.grogshop{
+  border-bottom: 1px red solid;
+  color: #eb6100;
+}
+
+/*右 信息部分 */
+.top_right{
+  float: right;
+  height:40px; 
+  line-height: 40px;
+  margin-top: 14px;
+  position: relative;
+}
+/*QQ*/
+.top_right img{
+  width: 66px;
+  height: 70px; 
+  float: left;
+  position: relative;
+  top: -14px;
+}
+
+/*weixin*/
+img.weixin,img.site{
+  height: 40px;
+  width: 54px;
+  top: 0px;
+  margin-right: 30px;
+  margin-left: 8px;
+}
+/*地址*/
+img.site{
+  height: 40px;
+  width: 24px;
+  top: 0px;
+  margin-right: 16px;
+  margin-left: 0;
+}
+/*登录 注册 洛阳*/
+.Lrs{
+  display: block;
+  float: left;
+  margin-right:20px; 
+  font-size: 22px;
+  color: #fff;
+}
+/*导航栏结束*/
+/*<!-- 中间部分的开始 -->*/
+.center_box{
+  float:left;
+  width:1920px;
+  height:4090px;
+  margin: 0 auto;
+  position: relative;
+
+}
+/*（中国）轮播图这一块开始 */
+       #container {
+            float:left;
+            position: relative;
+            width: 1920px;
+            height: 602px;
+            overflow: hidden;
+        }
+        
+        #list {
+            position: absolute;
+            width: 7680px;
+            height: 602px;
+        }
+        
+        /*#list li img:nth-child(3){
+            margin-left: 400px;
+
+        }*/
+        
+       #list li {
+            width:1920px;
+            height: 602px;
+            background-image: url(../img/slice/banner_1.jpg);
+            overflow: hidden;
+            float: left;
+        }
+
+        #list li img{
+          width: 100%;
+          height: 100%;
+        }
+
+          #list li.b_7 img{
+            width:767px;
+             height:602px;
+            margin-left: 440px;
+             
+
+          }
+        
+
+        
+        #buttons .on {
+            background: orangered;
+        }
+        
+        .arrow {
+           position: absolute;
+            top: 254px;
+            /*left:28px;*/
+            /*z-index: 2;*/
+            display: none;
+            width: 40px;
+            height: 40px;
+            font-size: 36px;
+            font-weight: bold;
+            line-height: 39px;
+            /*text-align: center;*/
+            color: #fff;
+            /*background-color: RGBA(0, 0, 0, .3);*/
+            cursor: pointer;
+        }
+        
+        .arrow:hover {
+            /*background-color: RGBA(0, 0, 0, .7);*/
+        }
+        
+        #container:hover .arrow {
+            display: block;
+        }
+        
+        #prev {
+            left: 28px;
+        }
+        
+        #next {
+            right: 28px;
+        }
+        #fmath{
+            color:white;
+            position: absolute;
+            right: 128px;
+            top: 552px;
+        }
+/*（中国）轮播图这一块结束*/
+
+/*目的地的输入框开始*/
+.search {
+    float:left;
+    position: relative;
+    width: 700px;
+    margin-left: 610px;
+    margin-top: 30px;
+    border:1px solid gray;
+}
+
+.search input {
+    float:left;
+    width: 550px;
+    padding-left: 10px;
+    height: 48px; 
+    font-size: 20px;
+    color: black; 
+
+    border: none;
+    outline: none;
+
+}
+.search img {
+    float:right; 
+    width: 142px;
+    height: 48px;
+    background-color: #B61D1D;  
+    color: #FFF;
+    cursor: pointer;
+}
+/*目的地的输入框结束
+
+/*城市的开始*/
+.city{
+  float:left;
+  position: relative;
+  width:400px;
+  height:52px;
+  margin-left: 610px;
+}
+.city span{
+  width:40px;
+  float:left;
+  margin-top:14px;
+  font-size: 16px;
+}
+/*城市的结束*/
+
+/*热门推荐及图片开始*/
+.hot{
+  float:left;
+  position: relative;
+  width:100%;
+  height:70px;
+}
+.hot_recom{
+  float:left;
+  width:1198px;
+  height:70px;
+  background-color: rgb(238,255,253);
+  margin-left: 310px;
+}
+.hot .hot_recom .hot_recoms{
+  float:left;
+  width:1198px;
+  height:40px;
+  text-align: center;
+  background-color: rgb(238,255,253);
+}
+.hot .hot_recom .hot_recoms span{
+  float:left;
+  font-size: 16px;
+  margin-left: 546px;
+  margin-top: 18px;
+}
+.hot .hot_recom .uls{
+  float:left;
+  width:1198px;
+  height:30px; 
+  background-color: rgb(238,255,253);
+}
+.hot .hot_recom .uls span:nth-child(1){ 
+
+  margin-left: 566px;
+
+}
+.hot .hot_recom .uls span:nth-child(2){
+  float:right;
+  display: block;
+  margin-right:10px;
+}
+
+.hot .hot_recom .uls a{
+  color: #000;
+}
+
+#con{
+  float:left;
+  width:1198px;
+  height:860px;
+  margin-left: 310px;
+  background-color: rgb(238,255,253);
+  box-shadow:5px 5px 10px #000;
+/*实现了2列，没两列之间间距为30px，*/ 
+  column-count:2;
+  column-gap:30px;
+}
+/*小盒子内容区的样式，display:inline-block：实现 效果*/
+#con .pic{
+         float:left;
+         width:584px;
+         height:400px;
+         box-shadow:2px 2px 6px #b5b5b5;         
+         display:inline-block
+     }
+     #con .pic1{
+          margin-top: 210px;           
+          width:584px;
+          min-height:400px;
+     }
+      #con .pic2{
+            width:584px;
+            min-height:400px;
+     }
+      #con .pic3{
+            margin-top: 30px;
+            width:584px;
+            min-height:400px;       
+     }
+      
+#con h3{
+  border-bottom:1px solid #ddd;
+  line-height:30px;
+  margin-top: -250px;
+  text-align:center;
+  padding:5px 5px;
+}
+#con h3 a{
+  font-size:20px;
+  text-decoration:none;
+  color:#fff;
+}
+#con  p{
+  font-size:12px;
+  color:#666;
+  line-height:20px;
+  white-space:nowrap;
+  overflow:hidden;
+/*很多文字，一行显示不下，用省略号显示的代码*/
+text-overflow:ellipsis;
+}
+/*热门推荐及图片结束*/
+
+/*犹豫去哪儿？看这里的开始*/
+.where_box{
+  float:left;
+  position: relative;
+  width:100%;
+  height:70px;
+}
+.where_box .where{
+  float:left;
+  margin-left: 310px;
+  width:1198px;
+  height:70px;
+  background-color: rgb(238,255,253);
+}
+.where_box .where .hot_recoms{
+  float:left;
+  width:1198px;
+  height:40px;
+  text-align: center;
+  background-color: rgb(238,255,253);
+}
+.where_box .where .hot_recoms span{
+  float:left;
+  font-size: 16px;
+  margin-left: 546px;
+  margin-top: 16px;
+}
+.where_box .where .uls{
+  float:left;
+  width:1198px;
+  height:30px;
+  background-color: rgb(238,255,253);
+
+  position: relative;
+}
+.where_box .where .uls span:nth-child(1){
+  margin-left: 550px;
+  font-size: 10px;
+
+}
+.where_box .where .uls span:nth-child(2){
+  float:right;
+  font-size: 10px;
+  margin-right:10px;
+}
+
+.where_box .where .uls a{
+  color: #000;
+  float:right;
+  font-size: 10px;
+  margin-right:10px;
+  margin-bottom: 10px;
+
+  position: absolute;
+  right: 2px;
+  bottom: 10px;
+}
+
+#conm{
+  float:left;
+  width:1198px;
+  height:1000px;
+  margin-left: 310px;
+  background-color: rgb(238,255,253);
+  box-shadow:5px 5px 10px #000;
+  column-count:3;
+  column-gap:30px;
+}
+#conm .pic{
+         float:left;
+         width:380px;
+         height:300px;
+         box-shadow:2px 2px 6px #b5b5b5;        
+         display:inline-block
+     }
+     #conm .pic1{
+          margin-top: 137px;           
+          width:380px;
+          min-height:300px;
+     }
+      #conm .pic2{
+            margin-top: 30px;
+            width:380px;
+            min-height:300px;
+     }
+      #conm .pic3{
+            width:380px;
+            min-height:300px;
+        
+     }
+      #conm .pic4{
+            width:380px;
+            margin-top: 30px;           
+            min-height:300px;       
+     }
+      #conm .pic5{
+          margin-top: 30px;           
+          width:380px;
+          min-height:300px;
+     }
+      #conm .pic6{
+            width:380px;
+            min-height:300px;
+     }
+      #conm .pic7{
+            margin-top: 30px;
+            width:380px;
+            min-height:300px;
+        
+     }
+      #conm .pic8{
+            width:380px;
+            margin-top: 30px;
+            min-height:300px;       
+     }
+      
+
+#conm h3{
+  line-height:30px;
+  margin-top:-180px;
+  text-align:center;
+  padding:5px 5px;
+}
+#conm h3 a{
+  font-size:15px;
+  text-decoration:none;
+  color:#FFF;
+}
+#conm  p{
+  font-size:12px;
+  color:#666;
+  line-height:20px;
+  white-space:nowrap;
+  overflow:hidden;
+text-overflow:ellipsis;
+}
+/*犹豫去哪儿？看这里的结束*/
+
+/*自由行开始*/
+
+
+
+.frees_box{
+  float:left;
+  position: relative;
+  width:100%;
+  height:106px;
+  margin-top: 20px;
+}
+.frees_box .frees{
+  float:left;
+  width:1200px;
+  height:106px;
+  margin-left: 310px;
+  margin-top: 20px;
+  background-color: rgb(238,255,253);
+}
+.frees_box .frees .hot_recoms{
+  float:left;
+  width:1198px;
+  height:60px;
+  text-align: center;
+  background-color: rgb(238,255,253);
+}
+.frees_box .frees .hot_recoms span{
+  float:left;
+  font-size: 20px;
+  margin-left: 560px;
+  margin-top: 26px;
+}
+
+.frees_box .frees .frees_uls{
+  float:left;
+  width:1200px;
+  height:46px;
+  background-color: rgb(238,255,253);
+}
+.frees_box .frees .frees_uls span:nth-child(1){
+
+  margin-left: 550px;
+}
+.frees_box .frees .frees_uls span:nth-child(2){
+  float:right;
+  margin-right:10px;
+
+}
+
+.six_box{
+  float:left;
+  width:1200px;
+  height:1005px;
+  margin-left: 310px;
+  background-color: rgb(238,255,253);
+}
+.six_box div:nth-child(1){
+  float:left;
+  width:600px;
+  height:314px;
+  background-image: url(../img/slice/content_16.png);
+}
+.six_box div:nth-child(2){
+  float:left;
+  font-size: 16px;
+
+  text-align: center;
+  width:600px;
+  height:314px;
+}
+.six_box div:nth-child(3){
+  float:left;
+  font-size: 16px;
+  text-align: center;
+  width:600px;
+  height:314px;
+}
+.six_box div:nth-child(4){
+  float:left;
+  width:600px;
+  height:314px;
+  background-image: url(../img/slice/content_16.png);
+}
+.six_box div:nth-child(5){
+  float:left;
+  width:600px;
+  height:314px;
+  background-image: url(../img/slice/content_16.png);
+}
+.six_box div:nth-child(6){
+  float:left;
+  width:600px;
+  font-size: 16px;
+  text-align: center;
+  height:314px;
+}
+
+/*自由行结束*/
+
+/*<!-- 您的安全，我们罩了开始 -->*/
+.secure_box{
+   float:left;
+   position: relative;
+  width:100%;
+  height:221px;
+}
+.secure{
+  float:left;
+  width:1200px;
+  height:221px;
+  margin-left: 310px;
+}
+.secure_safe{
+  float:left;
+  width:1200px;
+  height:100px;
+  font-size: 28px;
+  line-height: 100px;
+  text-align: center;
+  background-color: white;
+}
+.secure_yuan{
+  float:left;
+  position: relative;
+  left: -20px;
+
+  width:1200px;
+  height:121px;
+
+  /*border: 1px red solid;*/
+}
+.secure_yuan_one{
+  float:left;
+  width:91px;
+  height:91px;
+
+  margin-left:280px;
+  border-radius: 50%;
+  background-color: gray;
+
+  position: relative;
+  top: 10px;
+}
+.secure_yuan_two{
+  float:left;
+  width:81px;
+  height:81px;
+  margin-top: 5px;
+  margin-left:-86px;
+  border-radius: 50%;
+  background-color: white;
+
+  position: relative;
+  top: 10px
+}
+.secure_yuan_three{
+  float:left;
+  margin-left: 10px;
+  width:150px;
+  height:121px;
+  font-size: 20px;
+  color:black;
+  background-color: white;
+
+
+}
+.secure_yuan_three p{
+  color:gray;
+  font-size: 14px;  
+}
+.secure_yuan_four{
+  float:left;
+  width:91px;
+  height:91px;
+  border-radius: 50%;
+  background-color: gray;
+
+  /*position: relative;*/
+  /*top: 10px;*/
+
+  position: relative;
+  top: 10px
+}
+/*<!-- 您的安全，我们罩了结束-->*/
+
+
+
+/*<!-- 中间部分的结束 -->*/
+
+
+
+/*footer开始*/
+.footer{
+  width: 100%;
+  float:left;
+  height: 373px;
+  background-color: #333333;
+
+  /*float: left;*/
+}
+
+/*第一层*/
+.footer_top{
+  width: 1574px;
+  height: 214px;
+  border-bottom: solid 1px #666666;
+  padding-left: 350px;
+}
+
+.footer .footer_top dl{
+  width: 209px;
+  height: 166px;
+  float: left;
+  padding-top: 48px;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+
+/*商家*/
+#scd{
+  width: 201px;
+}
+
+/*新手*/
+#trd{
+  width: 205px;
+}
+.footer .footer_top dl dt{
+  color: #FFFFFF;
+}
+.footer .footer_top dl dd a:hover{
+  text-decoration: underline;
+}
+.footer .footer_top dl dd a{
+  color: #999999;
+}
+
+/*最后一栏*/
+.footer .footer_top .f_last{
+  width: 98px;
+}
+.footer .footer_top .last dd{
+  width: 95px;
+  position: relative;
+  top: 28px;
+}
+.footer .footer_top .lasts dd{
+  width: 103px;
+  position: relative;
+  top: 55px;
+}
+
+/*二维码*/
+.footer .footer_top .QR_code{
+  width: 130px; 
+  height: 130px;
+
+  margin-top: 42px;
+  margin-left: 30px;
+
+  float: left;
+  position: relative;
+}
+
+.QR_code .wei_xin{
+  width: 100%; 
+  height: 100%;
+  /*margin-top: 42px;*/
+}
+
+.QR_code  .lo_go{
+  position: absolute;
+  top: 40px;
+  left: 30px;
+
+
+  width: 70px;height: 50px;
+}
+
+
+/*第二层*/
+.footer .footer_bottom{
+  width: 1555px;
+  height: 122px;
+
+  padding-left: 352px;
+  padding-top: 32px;
+}
+
+.footer .footer_bottom p{
+  color: #999999;
+    font-size: 12px;
+
+    position: relative;
+    top: -60px;
+
+    margin-bottom: 24px;
+    margin-left: 100px;
+}
+
+/*第三层 最底*/
+.Foot_di{
+  float: left;
+
+  width: 100%;
+  height: 40px;
+  background-color: #222;
+
+  font-style: italic;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+  position: relative;
+}
+
+.Foot_di img{
+  height: 100%;
+  width: 50px;
+
+  float: left;
+}
+
+.Foot_di p{
+  width: 1918px;
+  position: relative;
+  top: 2px;
+  left: 6px;
+}
+
+.Foot_di .span_1{
+  color: #fff;
+}
+
+.Foot_di .span_2{
+  color: #eb9100;
+}
+
+.Foot_di .p_2{
+  width: 1902px;
+  color: #666;
+  left:22px;
+}
+/*footer结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

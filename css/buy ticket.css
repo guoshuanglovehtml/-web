@@ -1,0 +1,799 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	width: 1924px;
+	font-family: "微软雅黑";
+	margin: 0 auto;
+}
+
+/*导航条开始*/
+.top_bg{
+	width: 100%;
+	height: 68px;
+
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	/*top: 0;*/
+	left: 0;
+}
+
+.top{
+	width: 1860px;
+	margin: 0 auto;
+
+	height: 68px;
+}
+
+/*logo*/
+.top .logo{
+	height: 48px;
+	margin-top: 10px;
+
+	float: left;
+	margin-right: 44px;
+
+	cursor: pointer;
+}
+
+.logo img{
+	height: 100%;
+}
+
+
+/*导航nav*/
+.nav{
+	float: left;
+	height:40px; 
+
+	line-height: 40px;
+	margin-top: 14px;
+}
+
+.nav a{
+	display: block;
+	float: left;
+	margin-right: 38px;
+
+	font-size: 22px;
+	color: #fff;
+
+}
+
+.nav a.grogshop{
+	border-bottom: 1px red solid;
+	color: #eb6100;
+}
+
+/*右 信息部分 */
+.top_right{
+	float: right;
+
+	height:40px; 
+	line-height: 40px;
+
+	margin-top: 14px;
+
+	position: relative;
+	/*left: 20px;*/
+
+}
+
+
+/*QQ*/
+.top_right img{
+	width: 66px;
+	height: 70px;
+	
+	float: left;
+	position: relative;
+	top: -14px;
+}
+
+
+/*weixin*/
+img.weixin,img.site{
+	height: 40px;
+	width: 54px;
+	top: 0px;
+
+	margin-right: 30px;
+	margin-left: 8px;
+
+	/*border: 1px red solid;*/
+}
+
+
+/*地址*/
+img.site{
+	height: 40px;
+	width: 24px;
+	top: 0px;
+
+	margin-right: 16px;
+	margin-left: 0;
+
+	/*border: 1px red solid;*/
+}
+
+
+/*登录 注册 洛阳*/
+.Lrs{
+	display: block;
+	float: left;
+	margin-right:20px; 
+	font-size: 22px;
+
+	color: #fff;
+}
+
+
+/*导航条结束*/
+
+
+/*自己的*/
+/*center_content*/
+.center_content{
+	width: 100%;
+	height: 1400px;
+}
+.center_content .fristimg{
+	width: 100%;
+	height: 400px;
+	float: left;
+	background: url(../img/DS_page2/banner_3.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.center_content .secondimg{
+	width: 100%;
+	height: 1170px;
+	float: left;
+	background: url(../img/DS_page2/banner_1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.center_content .white{
+	width: 950px;
+	height:1170px;
+	margin: 0px auto;
+	z-index: 999;
+	background-color:rgba(212,215,229,0.8) 
+}
+.center_content .white .white-a{
+	height: 520px;
+	width:950px; 
+	float: left;
+	margin-top: 15px;
+	/*background: red;*/
+	border-top: 1px solid #ccc;
+}
+.center_content .white .white-a .mid-autumn{
+	width: 950px;
+	height: 85px;
+	float: left;
+	line-height: 85px;
+	text-align: center;
+	color: #7A84F7;
+	font-size: 22px;
+}
+
+.wire-a{
+	width: 250px;
+	height: 5px;
+	background:#506DEF; 
+	float: left;
+}
+.wire-b{
+	width: 5px;
+	height: 250px;
+	background:#506DEF; 
+	float: left;
+	margin-left: -250px;
+	
+}
+.wire-c{
+	width: 5px;
+	height: 250px;
+	background:#506DEF; 
+	float: right;
+	margin-top: 177px;
+}
+.wire-d{
+	width: 250px;
+	height: 5px;
+	background:#506DEF; 
+	float: right;
+	margin-top: 422px;
+}
+.center_content .white .white-a .frame{
+	width: 930px;
+	height:420px;
+	margin: 87px auto;
+	border: 2px solid #506DEF;
+}
+/*自己画的+号开始*/
+.add-a{
+    width: 30px;
+    height: 1px;
+    float: left;
+    margin-top:30px;
+    margin-left: -220px;
+    background: #506DEF;
+}
+.add-aa{
+	width: 1px;
+    height:30px;
+    float: left;
+    margin-top:16px;
+    margin-left: -205px;
+    background: #506DEF;
+}
+.add-b{
+    width: 30px;
+    height: 1px;
+    float: left;
+    margin-top:390px;
+    margin-left: -220px;
+    background: #506DEF;
+}
+.add-bb{
+	width: 1px;
+    height:30px;
+    float: left;
+    margin-top:375px;
+    margin-left: -205px;
+    background: #506DEF;
+}
+.add-c{
+    width: 30px;
+    height: 1px;
+    float: right;
+    margin-top:30px;
+    margin-right: -220px;
+    background: #506DEF;
+}
+.add-cc{
+	width: 1px;
+    height:30px;
+    float: right;
+    margin-top:16px;
+    margin-right: -205px;
+    background: #506DEF;
+}
+.add-d{
+    width: 30px;
+    height: 1px;
+    float: right;
+    margin-top:390px;
+    margin-right: -220px;
+    background: #506DEF;
+}
+.add-dd{
+	width: 1px;
+    height:30px;
+    float: right;
+    margin-top:375px;
+    margin-right: -205px;
+    background: #506DEF;
+}
+/*自己画的+号结束*/
+
+.center_content .white .white-a .frame .details{
+	width: 800px;
+	height: 300px;
+	margin:55px auto;
+}
+/*城市选择开始*/
+.demo{
+	width:800px;
+	height: 80px;
+	float: left;
+	margin-top: -370px;
+}
+.demo div{
+	height:80px;
+	float:left;
+	text-align: center;
+	line-height: 80px;
+	margin-left: 150px;
+	width:290px;
+	color: #fff;
+	font-size: 20px;
+}
+.demo input{
+	width: 180px;
+	height: 25px;
+	border:2px solid #81B2CD;
+	position: relative;
+    background:#fff;
+    color:#000; 
+    left: 20px;
+   /* margin-left: 10px;*/
+}
+.demo .xx{
+	margin-left:0px;
+	float: left;
+}
+/*城市选择结束*/
+
+/*日期选择开始*/
+.go{
+	width: 800px;
+	height: 80px;
+	float: left;
+	margin-top: -280px;
+}
+.go span{
+	float: left;
+	font-size: 20px;
+	line-height: 80px;
+	color: #fff;
+	margin-left: 10px;
+}
+.go-a{
+	width: 250px;
+	height: 80px;
+	float: left;
+}
+.go-a input{
+	width: 180px;
+	height: 25px;
+	border:2px solid #81B2CD;
+	margin-left: 26px;
+	margin-top: 25px;
+    background:#fff;
+  
+}
+ #week{
+    width: 350px;
+    height: 300px;
+    position:absolute;
+    background: #506DEf;
+    left: 600px;
+    border: 1px solid #ccc;
+}
+
+#week h6 {
+    font-size: 20px;
+    overflow: hidden;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+}
+
+#week h6 div{
+    float: left;
+    width: 250px;
+    text-align: center;
+}
+
+#week .prev{
+    float: left;
+    font-size: 12px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#week .next {
+    float: right;
+    font-size: 12px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#week p span {
+    width: 50px;
+    float: left;
+    text-align: center;
+    height: 30px;
+    color: #fff;
+    line-height: 30px;
+}
+
+#week p {
+    background: #506DEf;
+    overflow: hidden;
+    float: left;
+    height: 30px;
+}
+
+#week ul {
+    margin-top: 10px;
+    float: left;
+}
+
+#week ul li {
+    width: 50px;
+    float: left;
+    text-align: center;
+    height: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.content{
+    color: #fff;
+}
+
+.go p{
+	float: left;
+	font-size: 20px;
+	line-height: 80px;
+	color: #fff;
+	margin-left: 113px;
+}
+.go-b{
+	width: 250px;
+	height: 80px;
+	float: left;
+}
+.go-b input{
+	width: 180px;
+	height: 25px;
+	border:2px solid #81B2CD;
+	margin-left: 26px;
+	margin-top: 25px;
+    background:#fff;
+
+}
+/*日期选择结束*/
+
+/*人数选择开始*/
+.number{
+	width: 800px;
+	height: 80px;
+	float: left;
+}
+.number span{
+	float: left;
+	font-size: 20px;
+	line-height: 80px;
+	color: #fff;
+	margin-left: 10px;
+}
+.number .number-A{
+	width: 300px;
+	height: 80px;
+	float: left;
+}
+.number .number-A .addc{
+	width: 56px;
+	height: 80px;
+	float: left;
+}
+.number .number-A .addc input{
+	width: 30px;
+	height: 25px;
+	border:1px solid #81B2CD;
+	margin-left: 26px;
+	margin-top: 25px;
+	font-size: 18px;
+    background:#fff;
+    cursor: pointer;
+    color:gray; 
+}
+.number .number-A .text{
+	width: 44px;
+	height: 80px;
+	float: left;
+}
+.number .number-A .text input{
+	width: 30px;
+	height: 23px;
+	border-top:1px solid #81B2CD;
+	border-bottom:1px solid #81B2CD; 
+	margin-top: 25px;
+    background:#fff;
+    padding-left: 10px;
+}
+.number .number-A .jian{
+	width: 56px;
+	height: 80px;
+	float: left;
+
+}
+.number .number-A .jian input{
+	width: 30px;
+	height: 25px;
+	border:1px solid #81B2CD;
+	margin-top: 25px;
+	font-size: 18px;
+    background:#fff;
+    cursor: pointer;
+    color:gray;
+}
+
+/*人数选择结束*/
+/*促销开始*/
+.sales{
+	width: 950px;
+	height: 60px;
+	float: left;
+	background: rgba(186,192,233,0.9);
+}
+.sales p{
+	line-height: 60px;
+	font-size: 20px;
+	float: left;
+	font-family: 微软雅黑;
+	margin-left: 100px;
+}
+.sales span{
+    line-height: 60px;
+	font-size: 19px;
+	float: left;
+	color: red;
+}
+.sales a{
+	line-height: 60px;
+	font-size: 20px;
+	float: left;
+	font-family: 微软雅黑;
+	margin-left: 5px;
+}
+.sales .grabble{
+	width: 100px;
+	height: 35px;
+	text-align: center;
+	float: right;
+	margin-right: 120px;
+	font-size: 16px;
+	line-height: 35px;
+	background: #EB6201;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 12px;
+	border-radius: 5px;
+}
+/*促销结束*/
+/*商品开始*/
+.merchandise{
+	width: 950px;
+	height: 540px;
+	float: left;
+	margin-top: 20px;
+	border-bottom: 1px solid #ccc;
+}
+.merchandise .merchandise-a{
+	width: 750px;
+	height: 540px;
+	margin: 0 auto;
+}
+.merchandise .merchandise-a .project{
+	width: 750px;
+	height: 50px;
+	float: left;
+} 
+
+.merchandise .merchandise-a .project ul li{
+	height:50px;
+	width: 140px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	cursor: pointer;
+	color: #fff;
+}
+.merchandise .merchandise-a .project ul li:hover{
+	background: #506DEF;
+}
+#resume{
+    width: 750px;
+	height: 480px;
+	float: left;
+	margin-top: 10px;
+}
+#resume ul li{
+	width:750px;
+	height: 25px;
+	float: left;
+	line-height: 25px;
+	font-size: 16px; 
+}
+.more{
+	width: 90px;
+	height: 35px;
+	line-height: 35px;
+	float: right;
+	cursor: pointer;
+	margin-top: 50px;
+	color:#506DEF; 
+}
+#explain{
+	width: 750px;
+	height: 480px;
+	float: left;
+	margin-top: 10px;
+	display: none;
+	background: green;
+}
+#particulars{
+	width: 750px;
+	height: 480px;
+	float: left;
+	margin-top: 10px;
+	display: none;
+	background: #000;
+}
+#flow{
+	width: 750px;
+	height: 480px;
+	float: left;
+	margin-top: 10px;
+	display: none;
+	background: #fff;
+}
+#refund{
+	width: 750px;
+	height: 480px;
+	float: left;
+	margin-top: 10px;
+	display: none;
+	background: gray;
+}
+/*center_content 结束*/
+
+
+
+
+
+/*footer开始*/
+.footer{
+	width: 100%;
+	height: 373px;
+	float: left;
+	background-color: #333333;
+
+	/*float: left;*/
+}
+
+/*第一层*/
+.footer_top{
+	width: 1423px;
+	height: 214px;
+	border-bottom: solid 1px #666666;
+	padding-left: 500px;
+}
+
+.footer .footer_top dl{
+	width: 160px;
+	height: 166px;
+	float: left;
+	padding-top: 48px;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+
+/*商家*/
+#scd{
+	width: 160px;
+}
+
+/*新手*/
+#trd{
+	width: 160px;
+}
+.footer .footer_top dl dt{
+	color: #FFFFFF;
+}
+.footer .footer_top dl dd a:hover{
+	text-decoration: underline;
+}
+.footer .footer_top dl dd a{
+	color: #999999;
+}
+
+/*最后一栏*/
+.footer .footer_top .f_last{
+	width: 98px;
+}
+.footer .footer_top .last dd{
+	width: 95px;
+	position: relative;
+	top: 28px;
+}
+.footer .footer_top .lasts dd{
+	width: 103px;
+	position: relative;
+	top: 55px;
+}
+
+/*二维码*/
+.footer .footer_top .QR_code{
+	width: 130px; 
+	height: 130px;
+
+	margin-top: 42px;
+	margin-left: 30px;
+
+	float: left;
+	position: relative;
+}
+
+.QR_code .wei_xin{
+	width: 100%; 
+	height: 100%;
+	/*margin-top: 42px;*/
+}
+
+.QR_code  .lo_go{
+	position: absolute;
+	top: 40px;
+	left: 30px;
+
+
+	width: 70px;height: 50px;
+}
+
+
+/*第二层*/
+.footer .footer_bottom{
+	width: 1423px;
+	height: 122px;
+
+	padding-left: 500px;
+	padding-top: 32px;
+}
+
+.footer .footer_bottom p{
+	color: #999999;
+    font-size: 12px;
+
+    position: relative;
+    top: -60px;
+
+    margin-bottom: 24px;
+    margin-left: 100px;
+}
+
+/*第三层 最底*/
+.Foot_di{
+	float: left;
+
+	width: 100%;
+	height: 40px;
+	background-color: #222;
+
+	font-style: italic;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	position: relative;
+}
+
+.Foot_di img{
+	height: 100%;
+	width: 50px;
+
+	float: left;
+}
+
+.Foot_di p{
+	width: 1918px;
+	position: relative;
+	top: 2px;
+	left: 6px;
+}
+
+.Foot_di .span_1{
+	color: #fff;
+}
+
+.Foot_di .span_2{
+	color: #eb9100;
+}
+
+.Foot_di .p_2{
+	width: 1902px;
+	color: #666;
+	left:22px;
+}
+/*footer结束*/

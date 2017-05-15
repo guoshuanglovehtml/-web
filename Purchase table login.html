@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购表登录</title>
+    <link rel="stylesheet" type="text/css" href="css/Purchase table login.css" />
+    <link href="css/time.css" rel="stylesheet" type="text/css" />
+    <script src="js/Purchase table login.js"></script>
+</head>
+<body>
+<!-- 导航条开始 -->
+
+<div class="top_bg">
+	<div class="top">
+		<div class="logo"><img src="img/slice/LOGO123-01.png"></div>
+
+		<div class="nav">
+			<a href="index.html">首页</a>
+			<a href="hot.html">热门推荐</a>
+			<a href="go with.html">社区交友</a>
+
+			<a href="Domestic.html">国内游</a>
+			<a href="freignren.html">国外游</a>
+			<a href="theme_1.html" >主题游</a>
+
+			<a href="grogshop.html">酒店</a>
+			<a href="Purchase table login.html" class="grogshop">交通方式</a>
+			<a href="javascript:;">医疗保险</a>
+		</div>
+
+		<div class="top_right">
+		    <a href=""><img src="img/slice/QQ1LIK.png"></a>
+            <a href=""><img src="img/slice/微信图标-01-拷贝@3x.png" class="weixin"></a>
+		    
+		    <a href="login.html" class="Lrs">登录</a>
+		    <a href="" class="Lrs">注册</a>
+            
+            <a href=""><img src="img/slice/定位-01-拷贝@2x.png" class="site"></a>
+            <a href="" class="Lrs">洛阳</a>
+		</div>
+
+	</div>
+</div>
+<!-- 背景图开始 -->
+<div class="backgroundimage"></div>
+	<!-- 背景图结束 -->
+	<!-- 购票开始 -->
+	<!-- 交通类型开始 -->
+		<div class="train">
+			<ul>
+				<li>机票</li>
+				<li>火车</li>
+				<li>邮票</li>
+				<li>租车</li>
+				<li>汽车</li>
+			</ul>
+		</div>
+		<!-- 交通类型结束 -->
+
+		<!-- <div ></div> -->
+        <!-- 飞机显示开始 -->
+		<div id="aircraft" class="x1">
+			<div class="aircraft-piao">
+				<ul>
+					<li>国内机票</li>
+					<li>国际机票</li>
+				</ul>
+			</div>
+		<div class="range">
+				<div class="style">
+					<p>航程类型</p>
+					<span>
+					<div class="dancheng">
+					单程<input type="radio" name="way" checked="checked"/>
+					</div>
+
+					<div class="wangfang">往返<input type="radio" name="way" ></div>
+
+					<div class="zhongzhuang">中转<input type="radio" name="way"></div>
+					</span>
+				</div>
+
+				<div class="demo">
+
+	               <div class="xx">
+		               出发城市
+		                <input type="text" value="" size="15" id="homecity_name" name="homecity_name" mod="address|notice" mod_address_source="hotel" mod_address_suggest="@Beijing|北京|53@Shanghai|上海|321@Shenzhen|深圳|91@Guangzhou|广州|80@Qingdao|青岛|292@Chengdu|成都|324@Hangzhou|杭州|383@Wuhan|武汉|192@Tianjin|天津|343@Dalian|大连|248@Xiamen|厦门|61@Chongqing|重庆|394@" mod_address_reference="cityid" mod_notice_tip="中文/拼音/首字母" />
+		               <input id="cityid" name="cityid" type="hidden" value="{$cityid}" />
+	                </div>
+	
+	               <div>
+		           到达城市
+		              <input type="text" value="" size="15" id="getcity_name" name="getcity_name" mod="address|notice" mod_address_source="hotel" mod_address_suggest="@Beijing|北京|53@Shanghai|上海|321@Shenzhen|深圳|91@Guangzhou|广州|80@Qingdao|青岛|292@Chengdu|成都|324@Hangzhou|杭州|383@Wuhan|武汉|192@Tianjin|天津|343@Dalian|大连|248@Xiamen|厦门|61@Chongqing|重庆|394@" mod_address_reference="getcityid" mod_notice_tip="中文/拼音/首字母" />
+		              <input id="getcityid" name="getcityid" type="hidden" value="{$getcityid}" />
+	                </div>
+
+                </div>
+
+                   <div id="jsContainer" class="jsContainer" style="height:0">
+                   <div id="tuna_alert" style="display:none;position:absolute;z-index:999;overflow:hidden;"></div>
+                   <div id="tuna_jmpinfo" style="visibility:hidden;position:absolute;z-index:120;"></div>
+               </div>
+
+              <script type="text/javascript" src="js/fixdiv.js"></script>
+              <script type="text/javascript" src="js/address.js"></script>
+
+              <div id="search" class="box_a">
+	              <div class="timeDateTwo">
+                    <label class="start">出发日期</label>
+                    <input id="J_date_1" type="text" placeholder="选择日期"  readonly />
+                    <label class="start-a">结束日期</label>
+                   <input id="J_date_2" type="text" placeholder="选择日期" readonly />
+                 </div>
+              </div>
+           <script type="text/javascript" src="js/timeMain.js"></script>
+           <script type="text/javascript" src="js/time.js"></script>
+
+           <div class="trip">
+           	 <span>出行人数</span>
+           	 <select>
+           	   <option></option>
+           	   <option>1</option>
+           	   <option>2</option>
+           	   <option>3</option>
+           	   <option>4</option>
+           	   <option>5</option>
+           	   <option>6</option>
+           	   <option>7</option>
+           	   <option>8</option>
+           	   <option>9</option>
+           	   <option>10</option>
+            </select>
+            <p>航空公司</p>
+            <select>
+           	   <option>不限</option>
+           	   <option>中国南方航空</option>
+           	   <option>吉祥航空</option>
+           	   <option>奥凯航空</option>
+           	   <option>深圳航空</option>
+           	   <option>海南航空</option>
+           	   <option>华夏航空</option>
+           	   <option>北京首都航空</option>
+           	   <option>东方航空</option>
+           	   <option>厦门航空</option>
+           	   <option>山东航空</option>
+            </select>
+           </div>
+            <div class="trip">
+           	 <span>乘客类型</span>
+           	 <select>
+           	   <option>成人</option>
+           	   <option>儿童</option>
+            </select>
+            <p>舱位等级</p>
+            <select>
+           	   <option>经济舱</option>
+           	   <option>头等舱</option>
+            </select>
+           </div>
+
+           <div class="seek">立即搜索</div>
+
+		</div>
+		<div class="surplus">
+			<div class="common">
+				<ul>
+					<li>
+						<span>余票查询</span>
+						<a href=""><img src="img/slice/yupiao.png"/></a>
+					</li>
+					<li>
+						<span>代售点查询</span>
+						<a href=""><img src="img/slice/daishoudian.png"/></a>
+					</li>
+					<li>
+						<span>时刻表查询</span>
+						<a href=""><img src="img/slice/shizhong.png"/></a>
+
+					</li>
+					<li>
+						<span>预售期查询</span>
+						<a href=""><img src="img/slice/shoupiao.png"/></a>
+
+					</li>
+					<li>
+						<span>常见问题</span>
+						<a href=""><img src="img/slice/wenti.png"/></a>
+
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		<!-- 飞机显示结束 -->
+
+		<!-- 火车显示开始 -->
+	   <div id="ticket" class="x1">
+			<div class="ticket-a">
+			<ul>
+				<li>国内火车票</li>
+				<li class="xx">国际<span></span><span>台湾火车票</span></li>
+			</ul>
+
+			<div class="range_a">
+				<div class="style">
+					<p>航程类型</p>
+					<span>
+					<div class="dancheng">
+					单程<input type="radio" name="sta" checked="checked"/>
+					</div>
+
+					<div class="wangfang">往返<input type="radio" name="sta"  ></div>
+
+					<div class="zhongzhuang">中转<input type="radio" name="sta"  ></div>
+					</span>
+				</div>
+				<div class="demo">
+
+	               <div class="xx">
+		               出发城市
+		                <input type="text" value="" size="15" id="homecity_name_a" name="homecity_name" mod="address|notice" mod_address_source="hotel" mod_address_suggest="@Beijing|北京|53@Shanghai|上海|321@Shenzhen|深圳|91@Guangzhou|广州|80@Qingdao|青岛|292@Chengdu|成都|324@Hangzhou|杭州|383@Wuhan|武汉|192@Tianjin|天津|343@Dalian|大连|248@Xiamen|厦门|61@Chongqing|重庆|394@" mod_address_reference="cityid" mod_notice_tip="中文/拼音/首字母" />
+		               <input id="cityid_a" name="cityid" type="hidden" value="{$cityid}" />
+	                </div>
+	
+	               <div>
+		           到达城市
+		              <input type="text" value="" size="15" id="getcity_name_a" name="getcity_name" mod="address|notice" mod_address_source="hotel" mod_address_suggest="@Beijing|北京|53@Shanghai|上海|321@Shenzhen|深圳|91@Guangzhou|广州|80@Qingdao|青岛|292@Chengdu|成都|324@Hangzhou|杭州|383@Wuhan|武汉|192@Tianjin|天津|343@Dalian|大连|248@Xiamen|厦门|61@Chongqing|重庆|394@" mod_address_reference="getcityid" mod_notice_tip="中文/拼音/首字母" />
+		              <input id="getcityid_a" name="getcityid" type="hidden" value="{$getcityid}" />
+	                </div>
+
+                </div>
+
+                   <div id="jsContainer" class="jsContainer" style="height:0">
+                   <div id="tuna_alert" style="display:none;position:absolute;z-index:999;overflow:hidden;"></div>
+                   <div id="tuna_jmpinfo" style="visibility:hidden;position:absolute;z-index:120;"></div>
+               </div>
+
+              <script type="text/javascript" src="js/fixdiv.js"></script>
+              <script type="text/javascript" src="js/address.js"></script>
+
+
+             <div id="search" class="box_a">
+	              <div class="timeDateTwo">
+                    <label class="start">出发日期</label>
+                    <input id="J_date_11" type="text" placeholder="选择日期"  readonly />
+                    <label  class="end">结束日期</label>
+                   <input id="J_date_22" type="text" placeholder="选择日期" readonly />
+                 </div>
+              </div>
+           <script type="text/javascript" src="js/timeMain.js"></script>
+           <script type="text/javascript" src="js/huoche.js"></script>
+
+             <div class="seek">立即搜索</div>
+			</div>
+		</div>
+		<div class="surplus-a">
+			<div class="common">
+				<ul>
+					<li>
+						<span>余票查询</span>
+						<a href=""><img src="img/slice/yupiao.png"/></a>
+					</li>
+					<li>
+						<span>代售点查询</span>
+						<a href=""><img src="img/slice/daishoudian.png"/></a>
+					</li>
+					<li>
+						<span>时刻表查询</span>
+						<a href=""><img src="img/slice/shizhong.png"/></a>
+
+					</li>
+					<li>
+						<span>预售期查询</span>
+						<a href=""><img src="img/slice/shoupiao.png"/></a>
+
+					</li>
+					<li>
+						<span>常见问题</span>
+						<a href=""><img src="img/slice/wenti.png"/></a>
+
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	  </div>
+		<!-- 火车显示结束 -->
+
+		<!-- 邮票显示开始 -->
+		<div id="postage" class="x1"></div>
+		<!-- 邮票显示结束 -->
+
+		<!-- 租车显示开始 -->
+		<div id="rent" class="x1"></div>
+		<!-- 租车显示结束 -->
+
+		<!-- 汽车显示开始 -->
+		<div id="automobile" class="x1"></div>
+		<!-- 汽车显示结束 -->
+	
+       <div class="footer">
+       	<div class="footer-a">
+        	<div class="footer_top">
+       		  <dl>
+					<dt>关于我们</dt>
+					<dd><a href="">我们走介绍</a></dd>
+					<dd><a href="">招贤纳士</a></dd>
+					<dd><a href="">网站荣誉</a></dd>
+					<dd><a href="">联系我们</a></dd>
+		       </dl>
+
+		       <dl>
+					<dt>商家服务</dt>
+					<dd><a href="javascript:;">我们走营销</a></dd>
+					<dd><a href="javascript:;">商家登录</a></dd>
+		        </dl>
+
+		        <dl>
+					<dt>新手上路</dt>
+					<dd><a href="javascript:;">预定帮助</a></dd>
+					<dd><a href="javascript:;">服务条款</a></dd>
+					<dd><a href="javascript:;">版权声明</a></dd>
+		        </dl>
+
+		        <dl>
+					<dt>合作伙伴</dt>
+					<dd><a href="javascript:;">中国旅游局</a></dd>
+					<dd><a href="javascript:;">途牛网旅游</a></dd>
+					<dd><a href="javascript:;">[全部]</a></dd>
+		       </dl>
+		       <dl class="f_last">
+					<dd><a href="javascript:;">阳光旅游网</a></dd>
+					<dd><a href="javascript:;">乐途网旅游</a></dd>
+		        </dl>
+
+		        <dl class="f_lasta">
+			     <dd><a href="javascript:;">光明日报网</a></a></dd>	
+			    </dl>
+			    <img src="img/slice/soamiao.png">
+
+       	   </div>
+
+       	</div>
+       	<div class="footer_bottom">
+       		  <div class="img">
+				<img src="img/slice/kanshijie.png"/>
+				</div>
+				<p>京ICP备12008866号广电节目制作许可证：1314号 &nbsp;&nbsp;&nbsp;京公网
+				<img src="img/slice/end.jpg" style="width: 16px; height: 16px;"/>1101050200号</p>
+
+				<span>copyright&nbsp;&copy;2005-2016 &nbsp;Lotour.com&nbsp;All&nbsp;Rights&nbsp;Riserved.我们走旅游版权所有</span>
+	</div>
+  </div>
+  
+  <div class="base">
+  	<img src="img/slice/LOGO123-01.png">
+  	<span>
+  		<a class="with">Spaec with</a>
+  		<a class="with-a">MarkMan 2</a>
+  	</span>
+  	<span>
+  		<a class="get">getmarkman.com</a>
+  	</span>
+  </div>
+
+
+
+
+
+    
+</body>
+</html>

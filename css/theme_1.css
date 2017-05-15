@@ -1,0 +1,654 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	width: 1924px;
+	font-family: "微软雅黑";
+
+	font:12px "Open Sans","Helvetica Neue",Helvetica,Arial,STHeiti,"Microsoft Yahei",sans-serif;
+
+	margin: 0 auto;
+}
+
+/*导航条开始*/
+.top_bg{
+	width: 100%;
+	height: 68px;
+
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.top{
+	width: 1860px;
+	margin: 0 auto;
+
+	height: 68px;
+}
+
+/*logo*/
+.top .logo{
+	height: 48px;
+	margin-top: 10px;
+
+	float: left;
+	margin-right: 44px;
+
+	cursor: pointer;
+	opacity: 0.7;
+
+	/*-webkit-filter:grayscale(70%);*/
+}
+
+.logo img{
+	height: 100%;
+}
+
+
+/*导航nav*/
+.nav{
+	float: left;
+	height:40px; 
+
+	line-height: 40px;
+	margin-top: 14px;
+}
+
+.nav a{
+	display: block;
+	float: left;
+	margin-right: 38px;
+
+	font-size: 22px;
+	color: #fff;
+
+}
+
+.nav a.grogshop{
+	border-bottom: 1px red solid;
+	color: #eb6100;
+}
+
+/*右 信息部分 */
+.top_right{
+	float: right;
+
+	height:40px; 
+	line-height: 40px;
+
+	margin-top: 14px;
+
+	position: relative;
+	/*left: 20px;*/
+
+}
+
+
+/*QQ*/
+.top_right img{
+	width: 66px;
+	height: 70px;
+	
+	float: left;
+	position: relative;
+	top: -14px;
+}
+
+
+/*weixin*/
+img.weixin,img.site{
+	height: 40px;
+	width: 54px;
+	top: 0px;
+
+	margin-right: 30px;
+	margin-left: 8px;
+
+	/*border: 1px red solid;*/
+}
+
+
+/*地址*/
+img.site{
+	height: 40px;
+	width: 24px;
+	top: 0px;
+
+	margin-right: 16px;
+	margin-left: 0;
+
+	/*border: 1px red solid;*/
+}
+
+
+/*登录 注册 洛阳*/
+.Lrs{
+	display: block;
+	float: left;
+
+	margin-right:20px; 
+	font-size: 22px;
+
+	color: #fff;
+}
+
+
+/*导航条结束*/
+
+
+
+
+/*banner*/
+.banner{
+	width: 100%;
+
+	height: 697px;
+}
+
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+/*banner 结束*/
+
+
+
+
+
+
+/*<!-- 主体内容部分开始 -->*/
+
+/*亲子游*/
+/*左*/
+.img_1{
+	width: 700px;
+	height: 1320px;
+
+	float: left;
+
+	/*margin-bottom: 100px;*/
+
+	/*border: 1px red solid;*/
+}
+
+.img_1 img{
+	display: block;
+	/*height: 50%;*/
+}
+
+img{
+	display: block;
+}
+
+/*亲子游文本*/
+.offspring{
+	width: 295px;
+	height: 619px;
+
+	background-color: #f3b895;
+
+	float: left;
+	/*margin-left: 10px;*/
+
+	position: relative;
+
+	cursor: pointer;
+}
+
+.offspring .s_title{
+	/*border: 1px red solid;*/
+	height: 20px;
+	line-height: 22px;
+
+	margin-top: 22px;
+	margin-left: 24px;
+
+	font-size: 18px;
+
+	/*margin-bottom: 6px;*/
+}
+
+.offspring .sp_title{
+	width: 50px;
+	/*border: 1px red solid;*/
+
+	font-size: 60px;
+	margin-left: 24px;
+	color: #000;
+	line-height: 80px;
+}
+
+.offspring .more{
+	position: absolute;
+	right: 40px;
+	bottom: 18px;
+
+	width: 30px;
+
+	font-size: 24px;
+	color: #000;
+}
+
+/*亲子游 下*/
+.img_2{
+	width: 1224px;
+	height: 701px;
+
+	float: left;
+}
+/*亲子游结束*/
+
+
+
+/*<!-- 婚拍游开始 -->*/
+.marry_bg{
+	width: 100%;
+	height: 2055px;
+}
+
+/*左上*/
+.marry_1{
+	float: left;
+	width: 989px;
+	height: 1077px;
+
+	position: relative;
+}
+
+.marry_1 img{
+	width: 100%;
+	height: 100%;
+}
+
+/*立即订购婚拍*/
+.marry_1 .order{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
+	background-color: rgba(102,102,102,0.4);
+	/*opacity: 0.4;*/
+}
+
+.order .order_bg{
+	width: 520px;
+	height: 500px;
+
+	/*border: 1px red solid;*/
+
+	position: absolute;
+	top: 508px;
+	left: 50%;
+	margin-left: -260px;
+	/*z-index: 1;*/
+	color: #fff;
+}
+
+.order_bg p{
+	/*color: #000;*/
+	font-size: 60px;
+	text-align: center;
+	cursor: pointer;
+
+	/*font-family: "苹方";*/
+}
+
+.order_bg .reality{
+	/*border: 1px red solid;*/
+	height: 40px;
+
+	font-size: 30px;
+	text-align: center;
+	line-height: 40px;
+
+	cursor: pointer;
+	margin-top: 6px;
+}
+
+.order_bg .promptly{
+	border: 2px #fff solid;
+	border-radius: 10px;
+
+	width: 302px;
+	height: 102px;
+
+	margin: 0 auto;
+	line-height: 102px;
+
+	font-size: 50px;
+	text-align: center;
+
+	margin-top: 34px;
+
+	position: relative;
+	left: -7px;
+	cursor: pointer;
+}
+
+
+/*<!-- 婚拍游文本 -->*/
+.marry{
+	width: 934px;
+	height: 296px;
+
+	background-color: #faf2a4;
+	float: right;
+
+	position: relative;
+	cursor: pointer;
+}
+
+.marry .m_title{
+	font-size: 60px;
+	/*font-weight: normal;*/
+	margin-left: 64px;
+	color: #000;
+
+	margin-top: 62px;
+}
+
+.marry .ma_title{
+	font-size: 18px;
+	margin-left: 65px;
+}
+
+.marry .more{
+	position: absolute;
+	right: 30px;
+	bottom: 20px;
+
+	font-size: 30px;
+	color: #000;
+
+}
+
+.marry .line{
+	position: absolute;
+	bottom: 26px;
+	left: 67px;
+
+	width: 56px;
+	border-top: 2px #000 solid;
+}
+/*婚拍游文本结束*/
+
+/*右*/
+.marry_2{
+	float: right;
+	width: 934px;
+	height: 1759px;
+
+	/*margin-bottom: 50px;*/
+}
+
+/*左下*/
+.marry_3{
+	width: 990px;
+	float: left;
+}
+/*<!-- 婚拍游 结束-->*/
+/*<!-- 婚拍游结束 -->*/
+
+/*周末游开始*/
+.weekend{
+	width: 704px;
+	height: 780px;
+
+	/*margin-top: 100px;*/
+	/*margin-bottom: 100px;*/
+
+	/*border: 1px red solid;*/
+	background-color: #9fc07c;
+
+	float: left;
+}
+
+/*周末文本*/
+.weekend .s_title{
+	margin-left: 58px;
+	margin-top: 112px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	color: #000;
+}
+
+.weekend .sp_title{
+	margin-left: 58px;
+}
+
+.weekend .more{
+	font-size: 30px;
+	right: 34px;
+	bottom: 14px;
+}
+
+.weekend .line_bg{
+	position: absolute;
+	bottom: 34px;
+	left: 30px;
+
+	width: 62px;
+	border-top: 2px #000 solid;
+}
+
+.weekend .line_bg .line{
+	width: 62px;
+	border-top: 2px #000 solid;
+	margin-top: 20px;
+}
+
+/*周末文本结束*/
+
+.weekend_2{
+	/*margin-bottom: 100px;*/
+	width: 1924px;
+	height: 900px;
+
+	position: relative;
+}
+
+.weekend_2 img{
+	width: 100%;
+	height: 100%;
+}
+
+.weekend_2 .particulars_bg{
+	position: absolute;
+	top: 360px;
+	left: 270px;
+
+	color: #fff;
+
+	width: 362px;
+	height: 173px;
+
+	font-size: 40px;
+	text-align: center;
+
+	padding-top: 20px;
+}
+
+.particulars_bg .particulars{
+	font-size: 35px;
+	margin: 0 auto;
+
+	width: 180px;
+	height: 60px;
+
+	line-height: 60px;
+	border: 2px #fff solid;
+
+	margin-top: 30px;
+}
+
+/*周末游结束*/
+
+
+
+/*<!-- 主体内容部分结束 -->*/
+
+
+
+
+
+
+/*footer开始*/
+.footer{
+	width: 100%;
+	height: 373px;
+	background-color: #333333;
+}
+
+/*第一层*/
+.footer_top{
+	width: 1574px;
+	height: 214px;
+	border-bottom: solid 1px #666666;
+	padding-left: 350px;
+}
+
+.footer .footer_top dl{
+	width: 209px;
+	height: 166px;
+	float: left;
+	padding-top: 48px;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+
+/*商家*/
+#scd{
+	width: 201px;
+}
+
+/*新手*/
+#trd{
+	width: 205px;
+}
+.footer .footer_top dl dt{
+	color: #FFFFFF;
+}
+.footer .footer_top dl dd a:hover{
+	text-decoration: underline;
+}
+.footer .footer_top dl dd a{
+	color: #999999;
+}
+
+/*最后一栏*/
+.footer .footer_top .f_last{
+	width: 98px;
+}
+.footer .footer_top .last dd{
+	width: 95px;
+	position: relative;
+	top: 28px;
+}
+.footer .footer_top .lasts dd{
+	width: 103px;
+	position: relative;
+	top: 55px;
+}
+
+/*二维码*/
+.footer .footer_top .QR_code{
+	width: 130px; 
+	height: 130px;
+
+	margin-top: 42px;
+	margin-left: 30px;
+
+	float: left;
+	position: relative;
+}
+
+.QR_code .wei_xin{
+	width: 100%; 
+	height: 100%;
+	/*margin-top: 42px;*/
+}
+
+.QR_code  .lo_go{
+	position: absolute;
+	top: 40px;
+	left: 30px;
+
+
+	width: 70px;height: 50px;
+}
+
+
+/*第二层*/
+.footer .footer_bottom{
+	width: 1555px;
+	height: 122px;
+
+	padding-left: 352px;
+	padding-top: 32px;
+}
+
+.footer .footer_bottom p{
+	color: #999999;
+    font-size: 12px;
+
+    position: relative;
+    top: -60px;
+
+    margin-bottom: 24px;
+    margin-left: 100px;
+}
+
+/*第三层 最底*/
+.Foot_di{
+	width: 100%;
+	height: 40px;
+	background-color: #222;
+
+	font-style: italic;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	position: relative;
+}
+
+.Foot_di img{
+	height: 100%;
+	width: 50px;
+
+	float: left;
+}
+
+.Foot_di p{
+	width: 1918px;
+	position: relative;
+	top: 2px;
+	left: 6px;
+}
+
+.Foot_di .span_1{
+	color: #fff;
+}
+
+.Foot_di .span_2{
+	color: #eb9100;
+}
+
+.Foot_di .p_2{
+	width: 1902px;
+	color: #666;
+	left:22px;
+}
+/*footer结束*/

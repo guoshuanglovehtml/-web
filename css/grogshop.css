@@ -1,0 +1,663 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	width: 1924px;
+	font-family: "微软雅黑";
+
+	font:12px "Open Sans","Helvetica Neue",Helvetica,Arial,STHeiti,"Microsoft Yahei",sans-serif;
+
+	margin: 0 auto;
+}
+
+/*导航条开始*/
+.top_bg{
+	width: 100%;
+	height: 68px;
+
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.top{
+	width: 1860px;
+	margin: 0 auto;
+
+	height: 68px;
+}
+
+/*logo*/
+.top .logo{
+	height: 48px;
+	margin-top: 10px;
+
+	float: left;
+	margin-right: 44px;
+
+	cursor: pointer;
+}
+
+.logo img{
+	height: 100%;
+}
+
+
+/*导航nav*/
+.nav{
+	float: left;
+	height:40px; 
+
+	line-height: 40px;
+	margin-top: 14px;
+}
+
+.nav a{
+	display: block;
+	float: left;
+	margin-right: 38px;
+
+	font-size: 22px;
+	color: #fff;
+
+}
+
+.nav a.grogshop{
+	border-bottom: 1px red solid;
+	color: #eb6100;
+}
+
+/*右 信息部分 */
+.top_right{
+	float: right;
+
+	height:40px; 
+	line-height: 40px;
+
+	margin-top: 14px;
+
+	position: relative;
+	/*left: 20px;*/
+
+}
+
+
+/*QQ*/
+.top_right img{
+	width: 66px;
+	height: 70px;
+	
+	float: left;
+	position: relative;
+	top: -14px;
+}
+
+
+/*weixin*/
+img.weixin,img.site{
+	height: 40px;
+	width: 54px;
+	top: 0px;
+
+	margin-right: 30px;
+	margin-left: 8px;
+
+	/*border: 1px red solid;*/
+}
+
+
+/*地址*/
+img.site{
+	height: 40px;
+	width: 24px;
+	top: 0px;
+
+	margin-right: 16px;
+	margin-left: 0;
+
+	/*border: 1px red solid;*/
+}
+
+
+/*登录 注册 洛阳*/
+.Lrs{
+	display: block;
+	float: left;
+
+	margin-right:20px; 
+	font-size: 22px;
+
+	color: #fff;
+}
+
+
+/*导航条结束*/
+
+
+
+/*banner*/
+.banner{
+	width: 100%;
+
+	height: 603px;
+}
+
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+/*banner 结束*/
+
+
+
+/*<!-- 主体内容部分开始 -->*/
+.content{
+	width: 100%;
+	background-color: #ddd;
+
+	padding-top: 36px;
+}
+
+/*<!-- content一top开始 -->*/
+.content_top{
+	width: 1100px;
+	height: 436px;
+
+	margin: 0 auto;
+	/*margin-bottom: 50px;*/
+	/*margin-left: 10px;*/
+	position: relative;
+	left: 10px;
+
+	/*border: 1px red solid;*/
+}
+
+/*左*/
+.content_top .c_left{
+	float: left;
+	/*margin-left: 51px;*/
+
+	width: 484px;
+	height: 346px;
+
+	border: 2px #eb6100 solid;
+
+	position: relative;
+}
+
+/*国内 港澳台  国外*/
+.c_left .L_title{
+	width: 410px;
+	margin: 0 auto ;
+	height: 28px;
+	padding-top: 22px;
+
+	border-bottom: 2px #aaa solid;
+}
+
+.L_title  div{
+	float: left;
+	width: 50%;
+	text-align: center;
+
+	height: 100%;
+
+	/*border: 1px red solid;*/
+
+	color: #aaa;
+
+	font-size: 24px;
+
+	cursor: pointer;
+}
+
+/*国内*/
+.L_title .in{
+	width: 204px ;
+	/*padding-left: 70px;*/
+
+	/*border-right: 1px red solid;*/
+	/*text-align: right;*/
+}
+
+.L_title .in span{
+	float: left;
+	position: relative;
+	left: 36px;
+}
+.L_title .in .spot{
+	position: relative;
+	top: -5px;
+	font-size: 26px;
+}
+
+
+/*国外*/
+.L_title .out{
+	color: #000;
+	height: 28px;
+	/*padding-top: 22px;*/
+
+	line-height: 24px;
+
+	border-bottom: 2px #eb6100 solid;
+	/*position: relative;*/
+	/*left: 15px;*/
+}
+
+
+
+
+
+/*酒店信息*/
+/*国内*/
+.c_left .message,.inland,.foreign{
+	width: 402px;
+	/*margin: 0 auto ;*/
+	height: 79%;
+	/*padding-top: 16px;*/
+
+	/*border-bottom: 2px #f00 solid;*/
+
+	/*border: 1px red solid;*/
+
+	position: absolute;
+	left: 44px;
+	top: 71px;
+
+	/*background-color: red;*/
+}
+
+/*目的地*/
+.inland .destination{
+
+	font-size: 20px;
+	height: 30px;
+	line-height: 30px;
+
+	margin-bottom: 20px;
+	/*margin-top: 20px;*/
+
+	position: relative;
+
+	/*border: 1px red solid;*/
+}
+
+.destination  input{
+	outline: none;
+	height: 30px;
+	position: relative;
+	top: -2px;
+	background-color: transparent;
+
+	border: none;
+	border: 1px #666 solid;
+
+	width: 110px;
+	padding-left: 6px;
+
+	margin-right: 10px;
+	margin-left: 40px;
+
+	font-size: 15px;
+}
+
+.destination span{
+	cursor: pointer;
+	z-index: 100;
+
+	/*border: 1px red solid;*/
+}
+
+
+/*隐藏ul 搜索历史开始*/
+.destination ul{
+	position: absolute;
+	left: 100px;
+	top: 31px;
+
+	width: 136px;
+	height: 154px;
+
+	border: 1px #ccc solid;
+	border-top: none;
+	z-index: 1;
+
+	overflow: hidden;
+	background-color: #ddd;
+
+	display: none;
+}
+
+.destination ul li{
+	font-size: 15px;
+	padding-left: 6px;
+
+	color: #999;
+
+	cursor: pointer;
+	border-bottom: 1px #ccc solid;
+
+	width: 100%;
+	overflow: hidden;
+
+	height: 30px;
+}
+
+/*隐藏ul 搜索历史结束*/
+
+
+
+/*日期*/
+.inland .date{
+	margin-bottom: 22px;
+	position: relative;
+}
+
+.date .date_bg{
+	/*float: left;*/
+	position: absolute;
+	left: 100px;
+	top: 0;
+
+	width: 270px;
+	height: 30px;
+	border: 1px #333 solid;
+
+}
+
+.inland .date input{
+	margin-left: 0px;
+	width: 230px;
+	margin-right: 0;
+	border: none;
+}
+
+.date img{
+	position:absolute;
+	right: 40px;
+	top: 5px;
+	cursor: pointer;
+}
+
+.inland .keyword input{
+	margin-left: 40px;
+	width: 264px;
+	border: 1px #333 solid;
+}
+
+/*搜索*/
+.seach{
+	width: 200px;
+	margin: 0 auto;
+	height: 50px;
+	line-height: 50px;
+
+	background-color: #eb6100;
+	text-align: center;
+	color: #fff;
+	font-size: 26px;
+
+	cursor: pointer;
+}
+
+
+/*国外*/
+.c_left .foreign{
+	display: none;
+}
+
+
+/*右边部分*/
+.content_top .c_right{
+	float: right;
+	width: 565px;
+}
+
+.content_top .c_right img{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 20px;
+
+	cursor: pointer;
+
+}
+/*<!-- content一top结束 -->*/
+
+
+/*content center title 部分开始*/
+.center_title{
+	width: 1140px;
+	height: 60px;
+
+	margin: 0 auto;
+	border-bottom: 2px #333 solid; 
+	text-align: center;
+
+	margin-bottom: 30px;
+	font-size: 16px;
+	position: relative;
+}
+
+.center_title p{
+	font-size: 26px;
+	color: #222;
+	line-height: 28px;
+	position: relative;
+	top: -6px;
+}
+
+.center_title  a{
+	position: absolute;
+	right: 40px;
+
+	color: #eb6100;
+	font-size: 14px;
+}
+/*center title 部分结束*/
+
+
+/*content 中部*/
+.content_center{
+    width: 1203px;
+    height: 910px;
+
+	margin: 0 auto;
+	position: relative;
+	left: 11px;
+}
+
+.content_center img{
+	float: left;
+	cursor: pointer;
+
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+/*内容主体中部*/
+
+
+
+.Cont_bo_title{
+	margin-top: 32px; 
+	padding-top: 6px;
+
+	position: relative;
+	right: 10px;
+}
+
+
+.content_bottom{
+    width: 1203px;
+    height: 360px;
+
+	margin: 0 auto;
+	position: relative;
+	left: 2px;
+}
+
+.content_bottom img{
+	float: left;
+	cursor: pointer;
+}
+/*<!-- 主体内容部分结束 -->*/
+
+
+
+
+
+
+/*footer开始*/
+.footer{
+	width: 100%;
+	height: 373px;
+	background-color: #333333;
+}
+
+/*第一层*/
+.footer_top{
+	width: 1574px;
+	height: 214px;
+	border-bottom: solid 1px #666666;
+	padding-left: 350px;
+}
+.footer .footer_top dl{
+	width: 209px;
+	height: 166px;
+	float: left;
+	padding-top: 48px;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+
+/*商家*/
+#scd{
+	width: 201px;
+}
+
+/*新手*/
+#trd{
+	width: 205px;
+}
+.footer .footer_top dl dt{
+	color: #FFFFFF;
+}
+.footer .footer_top dl dd a:hover{
+	text-decoration: underline;
+}
+.footer .footer_top dl dd a{
+	color: #999999;
+}
+
+/*最后一栏*/
+.footer .footer_top .f_last{
+	width: 98px;
+}
+.footer .footer_top .last dd{
+	width: 95px;
+	position: relative;
+	top: 28px;
+}
+.footer .footer_top .lasts dd{
+	width: 103px;
+	position: relative;
+	top: 55px;
+}
+
+/*二维码*/
+.footer .footer_top .QR_code{
+	width: 130px; 
+	height: 130px;
+
+	margin-top: 42px;
+	margin-left: 30px;
+
+	float: left;
+	position: relative;
+}
+
+.QR_code .wei_xin{
+	width: 100%; 
+	height: 100%;
+	/*margin-top: 42px;*/
+}
+
+.QR_code  .lo_go{
+	position: absolute;
+	top: 40px;
+	left: 30px;
+
+
+	width: 70px;height: 50px;
+}
+
+/*第二层*/
+.footer .footer_bottom{
+	width: 1555px;
+	height: 122px;
+
+	padding-left: 352px;
+	padding-top: 32px;
+}
+
+.footer .footer_bottom p{
+	color: #999999;
+    font-size: 12px;
+
+    position: relative;
+    top: -60px;
+
+    margin-bottom: 24px;
+    margin-left: 100px;
+}
+
+/*第三层 最底*/
+.Foot_di{
+	width: 100%;
+	height: 40px;
+	background-color: #222;
+
+	font-style: italic;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	position: relative;
+}
+
+.Foot_di img{
+	height: 100%;
+	width: 50px;
+
+	float: left;
+}
+
+.Foot_di p{
+	width: 1918px;
+	position: relative;
+	top: 2px;
+	left: 6px;
+}
+
+.Foot_di .span_1{
+	color: #fff;
+}
+
+.Foot_di .span_2{
+	color: #eb9100;
+}
+
+.Foot_di .p_2{
+	width: 1902px;
+	color: #666;
+	left:22px;
+}
+/*footer结束*/

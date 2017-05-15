@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>交通三级页</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/transportation.css">
+	
+
+</head>
+<body>
+
+<!-- 导航条开始 -->
+
+<div class="top_bg">
+	<div class="top">
+		<div class="logo"><img src="img/slice/LOGO123-01.png"></div>
+
+		<div class="nav">
+			<a href="index.html">首页</a>
+			<a href="hot.html">热门推荐</a>
+			<a href="go with.html">社区交友</a>
+
+			<a href="Domestic.html">国内游</a>
+			<a href="freignren.html">国外游</a>
+			<a href="theme_1.html" >主题游</a>
+
+			<a href="grogshop.html">酒店</a>
+			<a href="Purchase table login.html" class="grogshop">交通方式</a>
+			<a href="javascript:;">医疗保险</a>
+		</div>
+
+		<div class="top_right">
+		    <a href=""><img src="img/slice/QQ1LIK.png"></a>
+            <a href=""><img src="img/slice/微信图标-01-拷贝@3x.png" class="weixin"></a>
+		    
+		    <a href="login.html" class="Lrs">登录</a>
+		    <a href="" class="Lrs">注册</a>
+            
+            <a href=""><img src="img/slice/定位-01-拷贝@2x.png" class="site"></a>
+            <a href="" class="Lrs">洛阳</a>
+		</div>
+
+	</div>
+</div>
+
+
+
+<!-- 导航条结束 -->
+
+
+<!-- 自己的 -->
+<!-- center_content部分 -->
+<div class="center_content">
+	<div class="message">
+		<div class="riding">
+			<!-- 乘车信息开始 -->
+		  <div class="riding-a">
+			<div class="compellation">乘车人信息</div>
+			   <div id="space">
+                <table id="biao"  cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <ul>
+                          	<li>
+                          		<label class="move" >姓名 :</label>
+                          		<input type="text" value="" id="inp1" class="NAME" placeholder=""/>
+                          		<span></span>
+                          	</li>
+
+                          	<li>
+                          	   	<label>证件类型 :</label>
+					   		    <input type="text" placeholder="请输入二代身份证号" id="inp2" class="ID"/>
+					   		    <span></span>
+					   		</li>
+					   		<li>
+					   		<label class="move-a">手机号 :</label>
+					   		<input type="text" placeholder="" id="inp3" class="tele"/>
+					   		<span></span>
+					   	   </li>
+                          </ul>
+                        </td>
+                  
+                       </tr>
+                    </tbody>
+                </table>
+                    <div id="add">
+					   	    	<p>+</p>
+					   	    	<a>添加乘客</a>
+					   	    	
+					   	    </div>
+					<div class="wenzi">您还可以添加四名乘客</div>
+                <script type="text/javascript" src="js/verification.js"></script>
+
+
+
+    	        <table id="tab11" style="display: none">
+                    <tbody>
+                        <tr>
+                           <td class="border">
+                           	    
+                           	  <ul>
+                             	<li>
+                          		  <label class="move" >姓名 :</label>
+                          		  <input type="text" value="" class="NAME" placeholder=""/><span></span>
+                          	    </li>
+
+                          	   <li>
+                          	   	 <label>证件类型 :</label>
+					   		     <input type="text" placeholder="请输入二代身份证号" class="ID"/ ><span></span>
+					   		  </li>
+
+					   		  <li>
+					   		   <label class="move-a" >手机号 :</label>
+					   		   <input type="text" value="" class="tele"/><span></span>
+					   	      </li>
+                            </ul>
+                          
+                            <div  id="Button2" onclick="shanchu(this)"/> 删除</div>
+                            <div class="baocun">
+                            	<input type="checkbox"  value="">是否保存</input>
+                            </div>
+                           </td> 
+                        </tr>
+                     </tbody>
+                </table>
+      
+               </div>
+           </div>
+
+    
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+     var show = 5;      
+           $("#add").click(function () {
+               var length = $("#biao tbody tr").length;
+               if (length < show)    
+               {
+                   $("#tab11 tbody tr").clone().appendTo("#biao tbody");
+
+                       var NAME = document.getElementsByClassName("NAME");
+                          for (var i = 0; i < NAME.length; i++) {
+    	                        NAME[i].onblur=function(){   
+                         		    var NAME= /^[\u4e00-\u9fa5]{2,}$/;
+		                              if(!NAME.test(this.value)){
+                                              this.value = '姓名不能为空';
+                                        this.focus = function (){
+                                                       this.value = "";
+                                                      }
+                                                }
+                                            }
+                                        };
+
+                       var IDS = document.getElementsByClassName("ID");
+                           for (var i = 0; i < IDS.length; i++)  {
+                   	          IDS[i].onblur=function(){   
+							    var sheng = /^(\d{15}$|^\d{18}$|^\d{17}(\d|X|x))$/;
+                          		     if(!sheng.test(this.value)) {
+		                                 this.value = '身份证号不能为空';
+                                           this.onfocus = function () {
+                                                  this.value = "";
+                                                        }
+                                                    }
+                                                }
+                                        };
+
+
+                        var tele = document.getElementsByClassName("tele");
+                           for (var i = 0; i < tele.length; i++){ 
+                              tele[i].onblur=function(){ 
+		  			     		var tel = /1[3|4|5|7|8][0-9]\d{8}$/;
+                           		    if(!tel.test(this.value)){
+		                              this.value = '手机号不可为空';
+                                        this.onfocus = function () {
+                                          this.value = "";
+                                                        }
+                                                     }
+                                                }
+                                        };
+
+
+                }
+                    else{
+               	     alert("最多只能添加四个哦！！！")
+                    }
+
+           });
+       });
+
+       function shanchu(opp) {
+           var length = $("#biao tbody tr").length;
+           if (length <= 1) {
+               return; 
+           }else{
+           	$(opp).parent().parent().remove();
+           }      
+       }
+
+
+</script>
+
+
+		   <!-- 乘车信息开始 -->
+		  <div class="zhnav ">
+		  	    <div class="trainnumber">
+			     车次信息
+			    <span>修改车次 ></span>
+		        </div>
+
+		        <div class="trainnumber-a">
+			      <div class="information">
+				     <span>k585</span>
+
+				   <div class="station">
+					<ul>
+						<li>22:39</li>
+						<li class="typeface">洛阳站</li>
+						<li>09月30日</li>
+						<li>星期二</li>
+					</ul>
+				  </div>
+
+				  <div class="xian"></div>
+				  <div class="hour">15小时9分钟</div>
+				  <div class="xian"></div>
+
+				  <div class="station">
+					<ul>
+						<li>23:00</li>
+						<li class="typeface">上海站</li>
+						<li>09月31日</li>
+						<li>星期三</li>
+					</ul>
+				  </div>
+
+				  <div class="surplus">
+					  <div class="part">
+						<ul>
+							<li>
+								<p>软卧 :</p>
+								<a>421张</a>
+							</li>
+							<li>
+								<p>余票 :</p>
+								<a>0张</a>
+							</li>
+						</ul>
+					  </div>
+					  <div class="part">
+						<ul>
+							<li>
+								<p>硬卧 :</p>
+								<a>421张</a>
+							</li>
+							<li>
+								<p>余票 :</p>
+								<a>0张</a>
+							</li>
+						</ul>
+					  </div>
+
+					  <div class="part">
+						<ul>
+							<li>
+								<p>硬座 :</p>
+								<a>421张</a>
+							</li>
+							<li>
+								<p>余票 :</p>
+								<a>0张</a>
+							</li>
+						</ul>
+					  </div>
+
+					  <div class="part">
+						<ul>
+							<li>
+								<p>无座 :</p>
+								<a>421张</a>
+							</li>
+							<li>
+								<p>余票 :</p>
+								<a>0张</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			  </div>
+		    </div>
+           <!-- 车次信息结束-->
+
+          <!-- 条款开始 -->
+		  <div class=" clause">
+			<span>我已完成阅读<a href="">《火车票平台用户协议》</a>并接受所有条款</span>
+			 <div class="agree">同意以上条款、提交订单</div>
+		  </div>
+		  <!-- 条款结束 -->
+
+
+
+
+
+
+		  </div>
+		</div>
+
+		<!--footer开始-->
+<div class="footer">
+	<div class="footer_top">
+		<dl>
+					<dt>关于我们</dt>
+					<dd><a href="javascript:;">我们走介绍</a></dd>
+					<dd><a href="javascript:;">招贤纳士</a></dd>
+					<dd><a href="javascript:;">网站荣誉</a></dd>
+					<dd><a href="javascript:;">联系我们</a></dd>
+		</dl>
+
+		<dl id="scd">
+					<dt>商家服务</dt>
+					<dd><a href="javascript:;">我们走营销</a></dd>
+					<dd><a href="javascript:;">商家登录</a></dd>
+		</dl>
+
+		<dl id="trd">
+					<dt>新手上路</dt>
+					<dd><a href="javascript:;">预定帮助</a></dd>
+					<dd><a href="javascript:;">服务条款</a></dd>
+					<dd><a href="javascript:;">版权声明</a></dd>
+		</dl>
+
+		<dl class="f_last">
+					<dt>合作伙伴</dt>
+					<dd><a href="javascript:;">中国旅游局</a></dd>
+					<dd><a href="javascript:;">途牛网旅游</a></dd>
+					<dd><a href="javascript:;">[全部]</a></dd>
+		</dl>
+
+		<dl class="f_last last">
+					<dd><a href="javascript:;">阳光旅游</a></dd>
+					<dd><a href="javascript:;">乐途网旅游</a></dd>
+		</dl>
+
+		<dl class="f_last lasts">
+			<dd><a href="javascript:;">人民日报网</a></a></dd>			
+		</dl>
+        
+        <div class="QR_code">
+          <img src="img/slice/timg.jpg" class="wei_xin"/>
+		  <img src="img/slice/LOGO123-01.png" class="lo_go"/>
+        </div>
+		
+	</div>
+			
+	<div class="footer_bottom">
+				<img src="img/slice/LOGO123-01.png" style="width: 70px;height: 50px;"/>
+				<p>京ICP备12008866号广电节目制作许可证：1314号 &nbsp;&nbsp;&nbsp;京公网
+				<img src="img/slice/end.jpg" style="width: 16px; height: 16px; position: relative; top: 3px; display: inline-block;"/> 1101050200号</p>
+
+				<p>copyright &nbsp;&copy; 2005 - 2016 &nbsp;Lotour.com&nbsp;All&nbsp;Rights&nbsp;Riserved. 我们走旅游网 版权所有</p>
+	</div>
+</div>
+
+<div class="Foot_di">
+    <img src="img/slice/LOGO123-01.png" style="width: 70px;height: 40px;"/>
+
+    <div>
+	 <p class="p_1">
+	 <span class="span_1">Spec with</span>
+	 <span class="span_2">MarkMan 2</span>
+	 </p>
+
+	 <a href="javascript:"><p class="p_2">getmarkman.com</p></a>
+	</div>
+</div>
+<!--footer结束-->
+	</div>
+ </div>
+<!-- banner部分结束 -->
+
+
+
+
+
+
+
+</body>
+</html>

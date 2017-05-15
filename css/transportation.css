@@ -1,0 +1,595 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	width: 1924px;
+	font-family: "微软雅黑";
+
+	margin: 0 auto;
+}
+
+/*导航条开始*/
+.top_bg{
+	width: 100%;
+	height: 68px;
+
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	/*top: 0;*/
+	left: 0;
+}
+
+.top{
+	width: 1860px;
+	margin: 0 auto;
+
+	height: 68px;
+}
+
+/*logo*/
+.top .logo{
+	height: 48px;
+	margin-top: 10px;
+
+	float: left;
+	margin-right: 44px;
+
+	cursor: pointer;
+}
+
+.logo img{
+	height: 100%;
+}
+
+
+/*导航nav*/
+.nav{
+	float: left;
+	height:40px; 
+
+	line-height: 40px;
+	margin-top: 14px;
+}
+
+.nav a{
+	display: block;
+	float: left;
+	margin-right: 38px;
+
+	font-size: 22px;
+	color: #fff;
+
+}
+.nav a.grogshop{
+	border-bottom: 1px red solid;
+	color: #eb6100;
+}
+
+/*右 信息部分 */
+.top_right{
+	float: right;
+	height:40px; 
+	line-height: 40px;
+	margin-top: 14px;
+	position: relative;
+	/*left: 20px;*/
+
+}
+
+
+/*QQ*/
+.top_right img{
+	width: 66px;
+	height: 70px;	
+	float: left;
+	position: relative;
+	top: -14px;
+}
+
+
+/*weixin*/
+img.weixin,img.site{
+	height: 40px;
+	width: 54px;
+	top: 0px;
+	margin-right: 30px;
+	margin-left: 8px;
+	/*border: 1px red solid;*/
+}
+
+
+/*地址*/
+img.site{
+	height: 40px;
+	width: 24px;
+	top: 0px;
+	margin-right: 16px;
+	margin-left: 0;
+
+	/*border: 1px red solid;*/
+}
+
+
+/*登录 注册 洛阳*/
+.Lrs{
+	display: block;
+	float: left;
+	margin-right:20px; 
+	font-size: 22px;
+	color: #fff;
+}
+
+
+/*导航条结束*/
+
+
+/*自己的*/
+/*center_content*/
+.center_content{
+	width: 100%;
+	float: left;
+	height: 100%;
+	
+}
+.center_content .message{
+	width: 100%;
+	height: 100%;
+	float: left;
+	background: url(../img/slice/content_8.png);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+/*乘车信息开始*/
+.center_content .message .riding{
+	width: 900px;
+	height:80%;
+	margin: 80px auto;
+}
+
+.riding .riding-a{
+	width: 900px;
+	background:rgba(245,247,253,0.8);
+	margin: 0 auto;
+}
+.riding .riding-a .compellation{
+	width: 900px;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	background:rgba(245,247,253,0.8);
+	font-size: 23px;
+	border-bottom: 1px solid #A2A6D3;
+}
+.riding .riding-a #space{
+    width: 900px;	
+	float: left;
+	background:rgba(245,247,253,0.8);
+	border-bottom: 1px solid #A2A6D3;
+}
+ .riding .riding-a #space td{
+    width: 420px;
+    height: 190px;
+    float: left;
+    margin-left: 230px;
+    /*border: 1px solid #000;*/
+    }
+ .riding .riding-a #space td.border{
+	border: 1px solid red;
+	margin-top: 10px;
+	/*width: 420px;
+	height: 180px;
+	float: left;*/
+}
+.riding .riding-a #space td ul li{
+	width: 420px;
+	height: 60px;
+    float: left;
+    line-height: 60px;
+    font-size: 20px;
+}
+#space td ul li label{
+	float: left;
+}
+#space td ul li input{
+    width: 240px;
+	height: 25px;
+	float: left;
+	margin-top: 18px;
+	color: red;
+	font-size: 18px;
+	margin-left: 15px;
+	border: 1px solid #A2A6D3;
+}
+#space td ul li span {
+	float: left;
+    color: red;
+    }
+
+    .wrong {
+        color: red
+    }
+
+    .right {
+        color: green;
+    }
+/*
+    .defau {
+        width: 200px;
+        height: 20px;
+    }
+
+    .de1 {
+        background-position: 0 -20px;
+    }*/
+.move{
+	margin-left: 39px;
+}
+.move-a{
+	margin-left: 19px;
+}
+ #add{
+	width: 110px;
+	height: 30px;
+	float: left;
+	margin-left: 335px;
+	margin-top: 15px;
+	border: 1px solid #F2A56D;
+	border-radius: 5px;
+	cursor: pointer;
+}
+ #add p{
+	float: left;
+	margin-left: 8px;
+    line-height:30px;
+    color:#F2A56D;
+    font-size: 22px; 
+}
+ #add a{
+	float: left;
+	margin-left: 8px;
+    line-height:30px;
+    color:#3D90EC;
+    font-size: 16px;
+}
+ .wenzi{
+	line-height: 80px;
+	color: #C7C8CC;
+	float: left;
+	margin-top: -10px;
+	height: 80px;
+	margin-left: 10px;
+	font-size: 16px;
+}
+.riding .riding-a #space td #Button2{
+   float: right;
+   position: relative;
+   top:-180px;
+   color: blue;
+   cursor: pointer;
+}
+.baocun {
+	float: right;
+	margin-right: -30px;
+	margin-top: -16px;
+}
+.baocun input{
+   font-size: 18px;
+}
+/*乘车信息结束*/
+
+
+
+
+ .riding .zhnav {
+ 	width: 100%;
+ 	height: 550px;
+ 	margin-top: 0px;
+ 	float: left;
+ 	background:rgba(245,247,253,0.8);
+ }
+.zhnav .trainnumber{
+	width:900px;
+	height: 50px;
+	margin: 0 auto;
+	line-height: 50px;
+	font-size: 23px;
+	border-bottom: 1px solid   #A2A6D3;
+}
+.zhnav  .trainnumber span{
+	float: right;
+	color: #257AE7;
+	line-height: 60px;
+	font-size: 19px;
+	cursor: pointer;
+	margin-right: 15px;
+}
+.trainnumber-a{
+	width: 900px;
+	height: 300px;
+	margin: 0 auto;
+	border-bottom: 1px solid   #A2A6D3;
+}
+.trainnumber-a .information{
+	width: 700px;
+	height: 300px;
+	margin: 20px auto;
+}
+.trainnumber-a .information span{
+	width: 120px;
+	height:110px;
+	float: left;
+	border-right: 2px solid #98989A;
+	font-size: 25px;
+	line-height: 100px;
+}
+.trainnumber-a .information .station{
+	width: 120px;
+	height: 110px;
+	float: left;
+	margin-left: 10px;
+}
+.trainnumber-a .information .station ul li{
+	width: 120px;
+	height: 27.5px;
+	float: left;
+	text-align: center;
+	line-height: 27.5px;
+	font-size: 17px;
+}
+.trainnumber-a .information .station ul li.typeface{
+	width: 120px;
+	height: 30px;
+	font-size: 22px;
+}
+.xian{
+	width: 80px;
+	float: left;
+	height: 2px;
+	margin-top: 52px;
+	background: #98989A;
+	margin-left: 5px;
+}
+.hour{
+	width: 130px;
+	height: 110px;
+	line-height: 110px;
+	float: left;
+	text-align: center;
+	font-size: 17px;
+}
+/*剩余票*/
+.surplus{
+   width: 666px;
+   height: 100px;
+   margin-top: 45px;
+   float: left;
+   border-top: 2px solid #98989A;
+   border-left: 2px solid #98989A;
+   border-bottom: 2px solid #98989A;
+}
+.surplus .part{
+	width: 164.5px;
+	height: 100px;
+	float: left;
+	border-right: 2px solid #98989A;
+}
+.surplus .part ul{
+	margin-top: 15px;
+}
+.surplus .part ul li{
+	width: 164.7px;
+	height: 30px;
+	float: left;
+	font-size: 18px;
+	color:#98989A; 
+	text-align: right;
+	line-height: 30px;
+}
+.surplus .part ul li p{
+	float: left;
+	font-size: 18px;
+	width: 70px;
+	height: 30px;
+	
+}
+.surplus .part ul li a{
+	float: left;
+	margin-left:5px; 
+}
+
+/*车次信息结束*/
+/*条款开始*/
+.clause{
+	width: 700px;
+	height: 178px;
+	margin: 0 auto;
+}
+.clause span{
+    width: 485px;
+    height: 178px;
+    line-height: 178px;
+    float: left;
+    font-size: 20px;
+}
+.clause span a{
+	color:#257AE7;
+}
+.agree{
+	width: 190px;
+	height: 25px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 75px;
+	line-height: 25px;
+	color: #257AE7;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	border: 2px solid #E36200;
+	border-radius: 5px;
+}
+/*条款结束*/
+/*center_content 结束*/
+
+
+/*footer开始*/
+.footer{
+	width: 100%;
+	height: 373px;
+	float: left;
+	margin-top: 10px;
+	background-color: #333333;
+
+	/*float: left;*/
+}
+
+/*第一层*/
+.footer_top{
+	width: 1423px;
+	height: 214px;
+	border-bottom: solid 1px #666666;
+	padding-left: 500px;
+}
+
+.footer .footer_top dl{
+	width: 160px;
+	height: 166px;
+	float: left;
+	padding-top: 48px;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+
+/*商家*/
+#scd{
+	width: 160px;
+}
+
+/*新手*/
+#trd{
+	width: 160px;
+}
+.footer .footer_top dl dt{
+	color: #FFFFFF;
+}
+.footer .footer_top dl dd a:hover{
+	text-decoration: underline;
+}
+.footer .footer_top dl dd a{
+	color: #999999;
+}
+
+/*最后一栏*/
+.footer .footer_top .f_last{
+	width: 98px;
+}
+.footer .footer_top .last dd{
+	width: 95px;
+	position: relative;
+	top: 28px;
+}
+.footer .footer_top .lasts dd{
+	width: 103px;
+	position: relative;
+	top: 55px;
+}
+
+/*二维码*/
+.footer .footer_top .QR_code{
+	width: 130px; 
+	height: 130px;
+
+	margin-top: 42px;
+	margin-left: 30px;
+
+	float: left;
+	position: relative;
+}
+
+.QR_code .wei_xin{
+	width: 100%; 
+	height: 100%;
+	/*margin-top: 42px;*/
+}
+
+.QR_code  .lo_go{
+	position: absolute;
+	top: 40px;
+	left: 30px;
+
+
+	width: 70px;height: 50px;
+}
+
+
+/*第二层*/
+.footer .footer_bottom{
+	width: 1423px;
+	height: 122px;
+
+	padding-left: 500px;
+	padding-top: 32px;
+}
+
+.footer .footer_bottom p{
+	color: #999999;
+    font-size: 12px;
+
+    position: relative;
+    top: -60px;
+
+    margin-bottom: 24px;
+    margin-left: 100px;
+}
+
+/*第三层 最底*/
+.Foot_di{
+	float: left;
+
+	width: 100%;
+	height: 40px;
+	background-color: #222;
+
+	font-style: italic;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	position: relative;
+}
+
+.Foot_di img{
+	height: 100%;
+	width: 50px;
+
+	float: left;
+}
+
+.Foot_di p{
+	width: 1918px;
+	position: relative;
+	top: 2px;
+	left: 6px;
+}
+
+.Foot_di .span_1{
+	color: #fff;
+}
+
+.Foot_di .span_2{
+	color: #eb9100;
+}
+
+.Foot_di .p_2{
+	width: 1902px;
+	color: #666;
+	left:22px;
+}
+/*footer结束*/
