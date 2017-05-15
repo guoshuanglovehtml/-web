@@ -242,9 +242,6 @@ function $d(a) { (A$(a).getAttribute("mod") || "").replace(/\w+/ig,
     })
 }
 var $dealElement = $d;
-function $t(a, b) {
-    typeof console !== "undefined" && console.error(typeof a === "string" ? a: a.message, b)
-}
 
 
 
@@ -297,7 +294,7 @@ var DOM = function() {
             for (var b = $fixE(b), c = a.module.event[b.type], d, f = 0; f < c.length; f++) if (c[f].enabled) try {
                 if (d = c[f].func.call(a, b), d === !1) break
             } catch(h) {
-                $t(h, [c[f].func, a])
+                // $t(h, [c[f].func, a])
             } else c.splice(f, 1),
             f--;
             return d
@@ -729,7 +726,7 @@ anjiehotel.module.notice = function(a) {
     a.$r("focus",
     function() {
         b = !0;
-        if (a.module.notice.enabled && (a.style.color = "", a.value == a.module.notice.tip)) a.value = ""
+        // if (a.module.notice.enabled && (a.style.color = "", a.value == a.module.notice.tip)) a.value = ""
     },
     10);
     a.$r("blur",
