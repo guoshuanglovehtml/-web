@@ -168,22 +168,18 @@ img.site{
         .arrow {
            position: absolute;
             top: 254px;
-            /*left:28px;*/
-            /*z-index: 2;*/
             display: none;
             width: 40px;
             height: 40px;
             font-size: 36px;
             font-weight: bold;
             line-height: 39px;
-            /*text-align: center;*/
             color: #fff;
-            /*background-color: RGBA(0, 0, 0, .3);*/
             cursor: pointer;
         }
         
         .arrow:hover {
-            /*background-color: RGBA(0, 0, 0, .7);*/
+            background-color: RGBA(0, 0, 0, .7);
         }
         
         #container:hover .arrow {
@@ -305,12 +301,15 @@ img.site{
   float:left;
   width:1198px;
   height:860px;
+  position: relative;
   margin-left: 310px;
   background-color: rgb(238,255,253);
   box-shadow:5px 5px 10px #000;
 /*实现了2列，没两列之间间距为30px，*/ 
-  column-count:2;
+  -webkit-column-count:2;
+  -webkit-column-gap:30px;
   column-gap:30px;
+  column-count:2;
 }
 /*小盒子内容区的样式，display:inline-block：实现 效果*/
 #con .pic{
@@ -318,21 +317,27 @@ img.site{
          width:584px;
          height:400px;
          box-shadow:2px 2px 6px #b5b5b5;         
-         display:inline-block
+         display:inline-block;
      }
      #con .pic1{
+          float:left;
           margin-top: 210px;           
           width:584px;
-          min-height:400px;
+          height:400px;
+          display:inline-block;
      }
       #con .pic2{
+            float:left;
             width:584px;
-            min-height:400px;
+            height:400px;
+            display:inline-block;
      }
       #con .pic3{
+            float:left;
             margin-top: 30px;
             width:584px;
-            min-height:400px;       
+            height:400px; 
+            display:inline-block ;     
      }
       
 #con h3{
@@ -423,8 +428,10 @@ text-overflow:ellipsis;
   margin-left: 310px;
   background-color: rgb(238,255,253);
   box-shadow:5px 5px 10px #000;
-  column-count:3;
+  -webkit-column-count:3;
+  -webkit-column-gap:30px;
   column-gap:30px;
+  column-count:3;
 }
 #conm .pic{
          float:left;
