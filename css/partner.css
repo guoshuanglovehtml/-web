@@ -63,7 +63,7 @@ body{
 
 .nav a.grogshop{
 	border-bottom: 1px red solid;
-	color: #eb6100;
+	color: #EB6100;
 }
 
 /*右 信息部分 */
@@ -162,7 +162,7 @@ img.site{
 					1927px 2500px,
 					1927px 4000px;
 }
-.picture{
+.picturesd{
 	width: 1800px;
 	height: 650px;
 }
@@ -326,8 +326,8 @@ img.site{
     width: 150px;
     height: 30px;
     position: absolute;
-    right: -1550px;
-    top: 120px;
+    right: 0px;
+    top: 280px;
     color: white;
     margin-top: 10px;
     cursor: pointer;
@@ -428,11 +428,8 @@ img.site{
 	margin-right: 30px;
 	float: left;
 }
-.picture:hover:before{
-	display: block;
-}
-.picture::before{
-	content: "欧尼  在最美的时光遇见再好的你和我";
+
+.reply_p{
 	width: 300px;
 	height: 150px;
 	display: block;
@@ -441,8 +438,44 @@ img.site{
 	color: white;
 	position: absolute;
 	top: 220px;
+	line-height: 40px;
 	display: none;
 }
+.picture:hover .reply_p{
+	display: block;
+}
+
+.reply_p h2{
+	margin-top: 60px;
+margin-left: 20px;	
+}
+.reply_p hr{
+	width: 190px;
+	margin-left: 20px;
+}
+
+.ATion,.ATions{
+	width: 100px;
+    height: 44px;
+    border: solid 1px white;
+    position: absolute;
+    top: 250px;
+    left: 220px;
+    font-size: 30px;
+    font-family: 微软雅黑;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.ATions{
+	top: 550px;
+	left: 200px;
+}
+.reply_p p{
+	margin-left: 20px;
+}
+
 .picture:nth-child(2),.picture:nth-child(4){
 	position: relative;
 	top: 100px;
@@ -517,21 +550,34 @@ img.site{
 	margin: 0 auto;
 	margin-top: 25px;
 }
-.pictured:hover:after{
-	display: block;
-}
-.pictured::after{
-	content: "毛火火";
+
+.p_reply{
 	width: 290px;
 	height: 180px;
-	border: solid white 1px;
-	/*opacity: 0.4;*/
+	/*text-align: center;*/
 	display: block;
-	margin: 0 auto;
+	line-height: 40px;
+	color: white;
+	margin-left: 40px;
 	position: absolute;
 	top: 370px;
-	left: 40px;
-	display: none;
+	opacity: 0;
+}
+
+.p_reply:hover{
+	opacity: 0.95;
+	/*margin-left: 40px;*/
+}
+.p_reply h2{
+	margin-top: 60px;
+margin-left: 20px;	
+}
+.p_reply hr{
+	width: 190px;
+	margin-left: 20px;
+}
+.p_reply p{
+	margin-left: 20px;
 }
 .pictured:nth-child(3){
 	position: relative;

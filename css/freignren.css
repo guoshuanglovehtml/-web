@@ -308,6 +308,8 @@ img.site{
 /*实现了2列，没两列之间间距为30px，*/ 
   column-count:2;
   column-gap:30px;
+  -webkit-column-count:2;
+  -webkit-column-gap:30px;
 }
 /*小盒子内容区的样式，display:inline-block：实现 效果*/
 #con .pic{
@@ -421,6 +423,8 @@ text-overflow:ellipsis;
   margin-left: 310px;
   background-color: rgb(238,255,253);
   box-shadow:5px 5px 10px #000;
+  -webkit-column-count:3;
+  -webkit-column-gap:30px;
   column-count:3;
   column-gap:30px;
 }

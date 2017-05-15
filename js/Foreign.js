@@ -38,6 +38,8 @@
             liao_in.onclick=function(){
                 liao_in.className="Liao";
                 l1.className="";
+                liao.style.width="80px";
+               
                 var liao2=document.getElementById('liao2').style.display="block";
                 var l2=document.getElementById('liao1').style.display="none";
             }
