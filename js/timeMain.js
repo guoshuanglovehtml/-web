@@ -726,7 +726,8 @@ Calendar.prototype = {
 		this.isPopup && (this.hide().container.style.position = "absolute");
 		
 		//触发元素为输入框时的相关设置
-		if(this.triggerNode.tagName.toUpperCase() === "INPUT") {
+		var tagName=null;
+		if(this.triggerNode.tagName.toUpperCase() === "") {
 			//如果设置了只读, 修改触发元素的readonly
 			this.isReadonly && (this.triggerNode.readOnly = true);
 			//如果设置了显示日期信息, 则创建日期信息标签
