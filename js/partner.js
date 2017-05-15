@@ -11,6 +11,16 @@ dataArry_conts=dates.data.partner_cont;
 dataArry_Imgs=dates.data.partner_imgs;
 }
 window.onload=function(){	
+	var ATions=document.getElementById("ATions");
+	var ATion=document.getElementById("ATion");
+	ATions.onclick=function(){
+		alert("关注成功")
+	}
+	
+	ATion.onclick=function(){
+		alert("关注成功")
+	}
+	
 	creatCell(dataArry_C);
 	function creatCell(dataArry_C){
 	var banner=document.getElementById("banner");
@@ -36,10 +46,6 @@ window.onload=function(){
     var pic = 0;
     arrRight.onclick = function () {
         playNext();
-//      arrRight.style.textDecoration="underline";
-    }
-    arrRight.onmouseout = function () {
-        arrRight.style.textDecoration="none";
     }
     function playNext() {
         if (pic == ulLis.length - 1) {
@@ -76,7 +82,6 @@ window.onload=function(){
     var pics = 0;
     arrRights.onclick = function () {
         playNexts();
-//      arrRights.style.textDecoration="underline";
     }
     arrRights.onmouseout = function () {
         arrRights.style.textDecoration="none";
@@ -103,7 +108,6 @@ window.onload=function(){
     var picsd = 0;
     arrRightsd.onclick = function () {
         playNextsd();
-//      arrRightsd.style.textDecoration="underline";
     }
     arrRightsd.onmouseout = function () {
         arrRightsd.style.textDecoration="none";
@@ -131,20 +135,43 @@ window.onload=function(){
 			picture.className="picture"
 			play1.appendChild(picture);
 			
-			var picture1=document.createElement("div");
-			picture1.style.backgroundImage="url("+dataArry_Img[i].img1+")";
-			picture1.className="picture"
-		  play2.appendChild(picture1)
+			var reply_p=document.createElement("div");
+		  reply_p.className="reply_p";
+		  reply_p.innerHTML="<h2>欧尼</h2><hr/><p>在最美的时光遇见最美的你和我</p>"
+		  picture.appendChild(reply_p);
+		  
+			
+			var picture=document.createElement("div");
+			picture.style.backgroundImage="url("+dataArry_Img[i].img1+")";
+			picture.className="picture"
+		  play2.appendChild(picture)
+		  
+		  var reply_p=document.createElement("div");
+		  reply_p.className="reply_p";
+		  reply_p.innerHTML="<h2>欧尼</h2><hr/><p>在最美的时光遇见最美的你和我</p>"
+		  picture.appendChild(reply_p);
+		  
 
-      var picture2=document.createElement("div");
-			picture2.style.backgroundImage="url("+dataArry_Img[i].img2+")";
-			picture2.className="picture"
-		  play3.appendChild(picture2)
+      var picture=document.createElement("div");
+			picture.style.backgroundImage="url("+dataArry_Img[i].img2+")";
+			picture.className="picture"
+		  play3.appendChild(picture)
+		  
+		  var reply_p=document.createElement("div");
+		  reply_p.className="reply_p";
+		  reply_p.innerHTML="<h2>欧尼</h2><hr/><p>在最美的时光遇见最美的你和我</p>"
+		  picture.appendChild(reply_p);
 
-      var picture3=document.createElement("div");
-			picture3.style.backgroundImage="url("+dataArry_Img[i].img3+")";
-			picture3.className="picture"
-		  play4.appendChild(picture3)
+
+      var picture=document.createElement("div");
+			picture.style.backgroundImage="url("+dataArry_Img[i].img3+")";
+			picture.className="picture"
+		  play4.appendChild(picture)
+		  
+		  var reply_p=document.createElement("div");
+		  reply_p.className="reply_p";
+		  reply_p.innerHTML="<h2>欧尼</h2><hr/><p>在最美的时光遇见最美的你和我</p>"
+		  picture.appendChild(reply_p);
 		}
 		
 		var plays1=document.getElementById("plays1")
@@ -199,25 +226,45 @@ window.onload=function(){
 		var playsd3=document.getElementById("playsd3")
 		var playsd4=document.getElementById("playsd4")
 		for (var n=0;n<dataArry_Imgs.length;n++) {
-			var picture=document.createElement("div");
-			picture.style.backgroundImage="url("+dataArry_Imgs[n].img+")";
-			picture.className="pictured"
-			playsd1.appendChild(picture);
+			var picture1=document.createElement("div");
+			picture1.style.backgroundImage="url("+dataArry_Imgs[n].img+")";
+			picture1.className="pictured"
+			playsd1.appendChild(picture1);
+			
+			var p_reply=document.createElement("div")
+		  p_reply.className="p_reply";
+		  p_reply.innerHTML="<h2>猫火火</h2><hr/><p>与海贼王一起踏上冒险旅程</p>"
+		  picture1.appendChild(p_reply)
 			
 			var picture1=document.createElement("div");
 			picture1.style.backgroundImage="url("+dataArry_Imgs[n].img1+")";
 			picture1.className="pictured"
 		  playsd2.appendChild(picture1)
+		  
+		  var p_reply=document.createElement("div")
+		  p_reply.className="p_reply";
+		  p_reply.innerHTML="<h2>猫火火</h2><hr/><p>与海贼王一起踏上冒险旅程</p>"
+		  picture1.appendChild(p_reply)
 
-      var picture2=document.createElement("div");
-			picture2.style.backgroundImage="url("+dataArry_Imgs[n].img2+")";
-			picture2.className="pictured"
-		  playsd3.appendChild(picture2)
+      var picture1=document.createElement("div");
+			picture1.style.backgroundImage="url("+dataArry_Imgs[n].img2+")";
+			picture1.className="pictured"
+		  playsd3.appendChild(picture1)
+		  
+		  var p_reply=document.createElement("div")
+		  p_reply.className="p_reply";
+		  p_reply.innerHTML="<h2>猫火火</h2><hr/><p>与海贼王一起踏上冒险旅程</p>"
+		  picture1.appendChild(p_reply)
 
-      var picture3=document.createElement("div");
-			picture3.style.backgroundImage="url("+dataArry_Imgs[n].img3+")";
-			picture3.className="pictured"
-		  playsd4.appendChild(picture3)
+      var picture1=document.createElement("div");
+			picture1.style.backgroundImage="url("+dataArry_Imgs[n].img3+")";
+			picture1.className="pictured"
+		  playsd4.appendChild(picture1)
+		  
+		  var p_reply=document.createElement("div")
+		  p_reply.className="p_reply";
+		  p_reply.innerHTML="<h2>猫火火</h2><hr/><p>与海贼王一起踏上冒险旅程</p>"
+		  picture1.appendChild(p_reply)
 		}
 	}
 }
