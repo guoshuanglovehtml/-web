@@ -235,13 +235,13 @@
     var btn2=document.getElementById("btn2");
     btn1.onclick=function (){
         var value=text.value;
-        if (value!="&&!isNaN(value)") {
+        if (value!="") {
             text.value=value*1+1;
         };
     }
     btn2.onclick=function (){
         var value=text.value;
-        if (value!="&&!isNaN(value)") {
+        if (value!="") {
             text.value=value*1-1;
         }
         if (text.value<=0) {
