@@ -1,0 +1,753 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+  
+  
+ 
+body{
+	width: 1924px;
+    margin: 0 auto;
+	font-family: "微软雅黑";
+	/*transform: scale(0.5);*/  
+     /*-moz-transform:scale(0.5,0.5); 
+     -webkit-transform:scale(0.5,0.5); 
+     -o-transform:scale(0.5,0.5);*/
+	padding-top: 68px;
+
+}
+
+/*导航条开始*/
+.top_bg{
+	width: 100%;
+	height: 68px;
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.top{
+	width: 1860px;
+	margin: 0 auto;
+	height: 68px;
+}
+
+/*logo*/
+.top .logo{
+	height: 48px;
+	margin-top: 10px;
+
+	float: left;
+	margin-right: 44px;
+
+	cursor: pointer;
+}
+
+.logo img{
+	height: 100%;
+}
+
+
+/*导航nav*/
+.nav{
+	float: left;
+	height:40px; 
+
+	line-height: 40px;
+	margin-top: 14px;
+}
+
+.nav a{
+	display: block;
+	float: left;
+	margin-right: 38px;
+
+	font-size: 22px;
+	color: #fff;
+
+}
+
+.nav a.grogshop{
+	border-bottom: 1px #eb6100 solid;
+	color:#eb6100;
+}
+
+/*右 信息部分 */
+.top_right{
+	float: right;
+
+	height:40px; 
+	line-height: 40px;
+
+	margin-top: 14px;
+
+	position: relative;
+	/*left: 20px;*/
+
+}
+
+
+/*QQ*/
+.top_right img{
+	width: 66px;
+	height: 70px;
+	
+	float: left;
+	position: relative;
+	top: -14px;
+}
+
+
+/*weixin*/
+img.weixin,img.site{
+	height: 40px;
+	width: 54px;
+	top: 0px;
+
+	margin-right: 30px;
+	margin-left: 8px;
+
+	/*border: 1px red solid;*/
+}
+
+
+/*地址*/
+img.site{
+	height: 40px;
+	width: 24px;
+	top: 0px;
+
+	margin-right: 16px;
+	margin-left: 0;
+
+	/*border: 1px red solid;*/
+}
+
+
+/*登录 注册 洛阳*/
+.Lrs{
+	display: block;
+	float: left;
+
+	margin-right:20px; 
+	font-size: 22px;
+
+	color: #fff;
+}
+
+
+/*导航条结束*/
+
+/*<!-- center_content样式部分 -->*/
+.liu_top{
+	height:1000px;
+	width:1924px;
+	background-image: url(../img/HL_page3/content_11.png);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	}
+	.liu_top1{
+		margin-left:355px;
+		height:560px;
+		width: 1106px;
+
+		/*border:1px solid green;*/
+	}
+.liu_HOT{
+	float: left;
+	height:700px;
+	width:630px;
+	margin-top: 22px;
+}
+.liu_HOT li{
+	margin-top: 37px;
+}
+.liu_HOT li:first-child{
+	margin-top:0px;
+}
+.liu_HOT li:nth-child(2){
+	margin-top: 17px;
+}
+.liu_HOT li:nth-child(3){
+	margin-top:40px;
+}
+.liu_HOT li:nth-child(3) span{
+	float: left;
+	width:135px;
+}
+.liu_HOT li:nth-child(3) input{
+	height: 30px;
+	width:120px;
+	line-height: 30px;
+	color:gray;
+    float: left;
+    outline: none;
+    border:1px solid gray;
+    border-right: none;
+   
+}
+.liu_HOT li:nth-child(3) div{
+	float: left;
+	height:30px;
+	width: 20px;
+	position: relative;
+	border:1px solid gray;
+	border-left: none;
+}
+.liu_HOT li:nth-child(3) div img{
+	position: relative;
+	top:5px;
+}
+
+.liu_HOT li:nth-child(4) {
+   margin-top:77px
+}
+.liu_HOT li:nth-child(6) input{
+	width:45px;
+	
+}
+.liu_HOT li:nth-child(6) span:last-child{
+	position: relative;
+	left:505px;
+}
+.liu_HOT li:nth-child(7){
+	margin-top: 22px;
+}
+.liu_HOT span{
+	cursor: pointer;
+}
+.liu_HOT .liu_s{
+	margin-left: 20px;
+}
+.liu_HOT .liu_TwoS{
+	background-color:#eb6100;
+}
+.liu_HOT .liu_More{
+	margin-left:150px;
+}
+.liu_HOT .liu_color{
+	color: #eb6100;
+}
+.liu_HOT_right{
+	float: right;
+	height: 638px;
+	width:472px;
+	margin-top:62px;
+	position: relative;
+}
+.liu_HOT_right span{
+	cursor: pointer;
+}
+.liu_HOT_right li:first-child span{
+	position: absolute;
+	right: 0;
+	top:0;
+}
+.liu_HOT_right li:first-child img{
+	position: absolute;
+	top:0;
+	right: 110px;
+}
+.liu_HOT_right li{
+	margin-top: 33px;
+}
+.liu_HOT_right li:nth-child(2){
+	margin-top:68px;
+	margin-left:91px;
+}
+.liu_HOT_right li:nth-child(2) input{
+	height:30px;
+	width: 200px;
+	outline: none;
+}
+.liu_HOT_right li:nth-child(2) a{
+	float:right;
+	height: 32px;
+	width:100px;
+	line-height: 32px;
+	font-size: 18px;
+	text-align: center;
+	background-color:#eb6100;
+	color:white;
+	margin-right:62px;
+}
+.liu_HOT_right li:nth-child(3){
+	margin-left:80px;
+	margin-top:50px;
+}
+
+ /*利用JSON控制生成的 页面样式开始部分*/
+ .liu_middle{
+	height:90px;
+	width: 1135px;
+	margin-left: 336px;
+	position: relative;
+	
+}
+.liu_middle1 {
+	height: 30px;
+	width:100%;
+	position:absolute;
+	top:60px;
+	border-bottom:2px solid #000;
+}
+.liu_middle1 li{
+	float: left;
+
+}
+.liu_middle1 li:first-child{
+	font-size: 22px;
+	color:#eb6100;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.liu_middle1 li:last-child{
+	float: right;
+	margin-right:30px; 
+}
+.liu_middle1 li:last-child span{
+	margin-left: 72px;
+}
+
+
+/*利用JSON控制生成的样式开始*/
+.liu_JScontrl{
+   margin-left:336px;
+   height:2015px;
+   width: 1135px;
+   padding-top:20px;
+   position: relative;
+ 
+ }
+
+ #Dg_Content_Sort li{
+     	height:350px;
+     	width:1135px;
+     	position: relative;
+     	cursor: pointer;
+        margin-top: 30px;
+      /* border:1px solid red;*/
+     	
+     }
+
+   .sub_div{
+   	height: 350px;
+   	width: 400px;
+   	float: left;
+   	cursor: pointer;
+   	background-size: cover;
+
+   }
+   
+   #Dg_Content_Sort li:first-child  div:nth-child(2){
+   	position: absolute;
+   	left: 0;
+   }
+     /*底部页面跳转开始部分*/
+     .Dg_Col{
+      	height:20px;
+      	width:20px;
+      	line-height: 20px;
+      	text-align: center;
+
+      }
+      #Dg_Click_Event{
+      	height: 20px;
+      	width:200px;
+      	overflow: hidden;
+      }
+        /*底部页面跳转结束部分*/
+  .liu_divs{
+  	float: right;
+  	height:350px;
+  	width:633px;
+  	position: absolute;
+  	right: 0;
+  	top: 0;
+  	
+  }
+  #Dg_Content_Sort li img{
+  	float: left;
+  	margin-left:50px;
+  }
+  
+#Dg_Content_Sort li span{
+	float:left;
+	
+}
+   .liu_jsonImg{
+   	position: absolute;
+   	left: 0;
+   	float: left;
+   	height:300px;
+   	width:360px;
+   	background: yellow;
+   }
+   .liu_jsonSpan1{
+   	width:620px;
+   	margin-top: 30px;
+
+   }
+   .liu_jsonSpan5{
+   	margin-top: 25px;
+   	width:580px;
+   }
+   .liu_jsonSpan2{
+   	position: relative;
+    top:-4px;
+    left:14px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#eb6100;
+   }
+   .liu_jsonSpan3,.liu_jsonSpan4{
+   	font-size:22px;
+   	width:480px;
+
+   }
+   .liu_jsonSpan4{
+   	margin-top: 13px;
+   	width:500px;
+   }
+   
+   .liu_jsonSpan8{
+    height: 20px;
+    width:70px;
+    line-height: 20px;
+    text-align: center;
+    position:relative;
+    top:22px;
+    left: -50px;
+    color:white;
+    border-radius: 5px;
+    background-color: #eb6100;
+   }
+   .liu_jsonSpan9{
+   	width:40px;
+   	margin-top: 25px;
+   }
+   .liu_jsonSpan10{
+   	width:40px;
+   	color:#eb6100;
+   	margin-top: 25px;
+   }
+   .liu_jsonSpan0{
+   	margin-top: 25px;
+   }
+   .liu_jsonSpan6{
+   	margin-top: 25px;
+   	margin-left: 404px;
+   }
+   .liu_jsonSpan7{
+   margin-top: -23px;
+   margin-left:504px;
+   color:#eb6100;
+   cursor: pointer;
+   }
+   .liu_jsonSpan11{
+   	color:#eb6100;
+   	position: absolute;
+   	left:150px;
+   	height: 30px;
+   	line-height: 30px;
+   	font-size: 20px;
+
+   }
+.Dg_Span_left{
+	font-weight: bold;
+	color:#CD3D41;
+}
+.Dg_Span_left,.Dg_Img_left,.Dg_Span_B{
+	float: left;
+}
+.Dg_Span_right,.Dg_Img_right{
+	float:right
+}
+.Dg_Span_P{
+	padding:0 0 7px ;
+	clear: both;
+}
+.Dg_Img_right,.Dg_Img_left{
+	width:25px;
+	height:25px;
+}
+.Dg_Img_right{
+	border-radius:50%;
+}
+.yw_displayPage_footer{
+	width:650px;
+	height:30px;
+	position:relative;
+	bottom:40px;
+	left:500px;
+	top:50px;
+	color:#000;
+}
+.yw_displayPage_footer div{
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+	color: #000;
+	cursor: pointer;
+}
+ .yw_page{
+	width:150px;
+	height:30px;
+	position: relative;
+	left:50px;
+	
+}
+.yw_Allpage{
+	position: relative;
+	left: 100px;
+}
+.yw_page1{
+	position: relative;
+	width: 100px;
+}
+.yw_displayPage_footer .page_input{
+	display: inline-block;
+	width:16px;
+	height:16px;
+	outline: none;
+	border: 1px solid #EB6100;
+	
+}
+
+.yw_displayPage_footer ol li{
+	float: left;
+	width:20px;
+	height:20px;
+	color:#313031;
+	outline: none;
+	line-height:20px;
+	margin:5px 0 0 5px;
+}
+.yw_displayPage_footer .page_botton{
+	width:45px;
+	height:28px;
+	font-size:13px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	line-height: 28px;
+	text-align:center;
+	background-color:#fff;
+	position: relative;
+	top:2px;
+}
+#Next_Page{
+	position: relative;
+	left: -30px;
+}
+
+ /*利用JSON控制生成的 页面样式结束部分*/
+
+.liu_bottom1{
+	height: 227px;
+	width: 1109px;
+	margin-left: 354px;
+	background-color: #eee;
+	position: relative;
+	padding-top:5px;
+}
+.liu_bottom1Top{
+	height: 100px;
+	width: 100%;
+}
+.liu_bottom1Bottom{
+	height: 100px;
+	width: 100%;
+	margin-top: 20px;
+}
+.liu_bottom1Top ul li ul{
+	float: left;
+	margin-left: 30px;
+	
+}
+.liu_bottom1Bottom ul li ul{
+	float: left;
+	margin-left: 30px;
+}
+.liu_bottom1Bottom ul li ul:nth-child(2){
+	margin-left: 81px;
+}
+.liu_bottom1Top ul li ul:nth-child(2){
+	margin-left: 81px;
+}
+.liu_bottom1 .liu_FirstLi{
+	width: 150px;
+	margin-left:20px;
+	/*border:1px solid green;*/
+}
+.liu_bottom1Top ul li ul:last-child{
+	float: right;
+	margin-right: 114px;
+}
+.liu_bottom1Bottom ul li ul:last-child{
+	float: right;
+	margin-right: 114px;
+}
+.liu_bottom1 ul li ul a{
+	color:black;
+}
+.liu_bottom1 li{
+	margin-top:7px;
+}
+/*center_content 结束*/
+/*footer开始*/
+.footer{
+  width: 100%;
+  height: 373px;
+  background-color: #333333;
+}
+
+/*第一层*/
+.footer_top{
+  width: 1574px;
+  height: 214px;
+  border-bottom: solid 1px #666666;
+  padding-left: 350px;
+}
+
+.footer .footer_top dl{
+  width: 209px;
+  height: 166px;
+  float: left;
+  padding-top: 48px;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+
+/*商家*/
+#scd{
+  width: 201px;
+}
+
+/*新手*/
+#trd{
+  width: 205px;
+}
+.footer .footer_top dl dt{
+  color: #FFFFFF;
+}
+.footer .footer_top dl dd a:hover{
+  text-decoration: underline;
+}
+.footer .footer_top dl dd a{
+  color: #999999;
+}
+
+/*最后一栏*/
+.footer .footer_top .f_last{
+  width: 98px;
+}
+.footer .footer_top .last dd{
+  width: 95px;
+  position: relative;
+  top: 28px;
+}
+.footer .footer_top .lasts dd{
+  width: 103px;
+  position: relative;
+  top: 55px;
+}
+
+/*二维码*/
+.footer .footer_top .QR_code{
+  width: 130px; 
+  height: 130px;
+
+  margin-top: 42px;
+  margin-left: 30px;
+
+  float: left;
+  position: relative;
+}
+
+.QR_code .wei_xin{
+  width: 100%; 
+  height: 100%;
+  /*margin-top: 42px;*/
+}
+
+.QR_code  .lo_go{
+  position: absolute;
+  top: 40px;
+  left: 30px;
+
+
+  width: 70px;height: 50px;
+}
+
+
+/*第二层*/
+.footer .footer_bottom{
+  width: 1555px;
+  height: 122px;
+
+  padding-left: 352px;
+  padding-top: 32px;
+}
+
+.footer .footer_bottom p{
+  color: #999999;
+    font-size: 12px;
+
+    position: relative;
+    top: -60px;
+
+    margin-bottom: 24px;
+    margin-left: 100px;
+}
+
+/*第三层 最底*/
+.Foot_di{
+  float: left;
+
+  width: 100%;
+  height: 40px;
+  background-color: #222;
+
+  font-style: italic;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+  position: relative;
+}
+
+.Foot_di img{
+  height: 100%;
+  width: 50px;
+
+  float: left;
+}
+
+.Foot_di p{
+  width: 1918px;
+  position: relative;
+  top: 2px;
+  left: 6px;
+}
+
+.Foot_di .span_1{
+  color: #fff;
+}
+
+.Foot_di .span_2{
+  color: #eb9100;
+}
+
+.Foot_di .p_2{
+  width: 1902px;
+  color: #666;
+  left:22px;
+}
+/*footer结束*/
