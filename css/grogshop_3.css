@@ -348,13 +348,13 @@ img.site{
    	left: 0;
    }
      /*底部页面跳转开始部分*/
-     .Dg_Col{
+     /*.Dg_Col{
       	height:20px;
       	width:20px;
       	line-height: 20px;
       	text-align: center;
 
-      }
+      }*/
       #Dg_Click_Event{
       	height: 20px;
       	width:200px;
