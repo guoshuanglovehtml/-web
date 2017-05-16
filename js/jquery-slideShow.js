@@ -29,15 +29,14 @@
         var loadLength=imageData.length>3?imageData.length:3;
         var loadLi=[];//需要载入的li
         var barButton=[];//底部导航条
+        var spans=[];
         for(var i=0;i<loadLength;i++){
             loadLi.push('<li class="oneImageBox2" id="theImgBox'+i+'"></li>');
             barButton.push('<button data-cid="'+i+'"></button>');
 
-            // var img_2 = document.getElementById("theImgBox1")
-            // console.log(img_2);
         }
         
-        //
+        
         $(".slideImageBox").append("<ul>"+loadLi.join("")+"</ul>");
         $("#theImgBox"+middlePosition).removeClass("oneImageBox2").addClass("oneImageBox");
         imageWidth=$("#theImgBox"+middlePosition).width();

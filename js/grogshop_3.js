@@ -76,13 +76,14 @@ window.onload=function(){
                };
 		// 创建li并插入ol元素中
 		var Page=Math.ceil(aJson.length/5);
-		if (Page>=5) {
-			GetId('Dg_Click_Event').parentNode.style.width=5*38+'px';
-			GetId('Dg_Click_Event').parentNode.style.height=30+'px';
+		GetId('Dg_Click_Event').style.width=(Page+1)*28+'px';
+		GetId('Dg_Click_Event').style.height=30+'px';
+		if (Page>=4) {
+			GetId('Dg_Click_Event').parentNode.style.width=4*38+'px';
 			GetId('Dg_Click_Event').parentNode.style.overflow='hidden';
 		}
 		else{
-			GetId('Dg_Click_Event').parentNode.style.width=(Page+1)*38+'px';
+			GetId('Dg_Click_Event').parentNode.style.width=(Page+1)*28+'px';
 		}
 		GetId('Dg_Click_Event').style.position='relative';
 
@@ -96,7 +97,18 @@ window.onload=function(){
 		}
 		//给元素内容标识   共Page页   内容
 		// GetId('Dg_Page').innerHTML=Page;
-
+         //尾页跳转按钮
+         GetId('liu_none').onclick=function (){
+            GetId('Dg_Click_Event').innerHTML='';
+            oUl.innerHTML='';
+            var sqrt=Target=127;
+            AddGoods(sqrt);
+            var oDl1=parseInt(sqrt);
+            Colr(oDl1);
+            MoveLeft(oDl1,Page);
+            GetId('Next_Page').onclick=null;
+            
+         }
 		// 下一页点击事件
 		GetId('Next_Page').onclick=function(){
 			GetId('Dg_Click_Event').innerHTML='';
@@ -165,14 +177,20 @@ window.onload=function(){
 function MoveLeft(oDl,Page){
 	var aCol=document.getElementsByClassName('Dg_Col');
 	if (oDl>3&&oDl<Page-3) {
-			aCol[oDl].parentNode.style.left=-(oDl-2)*38+'px';
+			aCol[oDl].parentNode.style.left=-(oDl-2)*25+'px';
 		}
 	else if(oDl<3){
 		aCol[oDl].parentNode.style.left=0+'px';
 	}
 	else if (oDl>Page-3) {
-		aCol[oDl].parentNode.style.left=-(Page-5)*38+'px';
+		aCol[oDl].parentNode.style.left=-(Page-5)*25+'px';
 	}
+	//判断省略号什么时候消失的事件
+    if(oDl>Page-5){
+            GetId('liu_none').style.display='none';
+          }else{
+            GetId('liu_none').style.display='block';
+          }
 }
 //封装的创建元素
 function Create(cE,Cl,El,a){

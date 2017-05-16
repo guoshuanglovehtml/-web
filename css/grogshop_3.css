@@ -349,14 +349,14 @@ img.site{
    }
      /*底部页面跳转开始部分*/
      .Dg_Col{
-      	height:30px;
-      	width:30px;
-      	line-height: 30px;
+      	height:20px;
+      	width:20px;
+      	line-height: 20px;
       	text-align: center;
 
       }
       #Dg_Click_Event{
-      	height: 30px;
+      	height: 20px;
       	width:200px;
       	overflow: hidden;
       }
@@ -480,30 +480,31 @@ img.site{
 }
 .yw_displayPage_footer{
 	width:650px;
-	height: 70px;
-	padding:40px 0 0 350px;
+	height:30px;
 	position:relative;
 	bottom:40px;
-	left:100px;
+	left:500px;
+	top:50px;
 	color:#000;
-	/*background: yellow;
-*/
 }
 .yw_displayPage_footer div{
 	float: left;
 	text-align: center;
 	line-height: 30px;
 	font-size: 12px;
-	color: #ccc;
+	color: #000;
 	cursor: pointer;
 }
  .yw_page{
 	width:150px;
 	height:30px;
-	margin:0 15px;
-	/*border: 1px solid green;*/
-
-
+	position: relative;
+	left:50px;
+	
+}
+.yw_Allpage{
+	position: relative;
+	left: 100px;
 }
 .yw_page1{
 	position: relative;
@@ -511,21 +512,21 @@ img.site{
 }
 .yw_displayPage_footer .page_input{
 	display: inline-block;
-	width:20px;
-	height:20px;
-	border: 1px solid orange;
-	border-radius: 3px;
+	width:16px;
+	height:16px;
+	outline: none;
+	border: 1px solid #EB6100;
+	
 }
+
 .yw_displayPage_footer ol li{
 	float: left;
-	width:30px;
-	height:30px;
-	margin:0 3px;
-	border: 1px solid #ddd;
-	border-radius: 3px;
+	width:20px;
+	height:20px;
 	color:#313031;
 	outline: none;
-	line-height:30px;
+	line-height:20px;
+	margin:5px 0 0 5px;
 }
 .yw_displayPage_footer .page_botton{
 	width:45px;
@@ -535,13 +536,17 @@ img.site{
 	border-radius: 3px;
 	line-height: 28px;
 	text-align:center;
-	margin-left:10px;
 	background-color:#fff;
 	position: relative;
 	top:2px;
 }
+#Next_Page{
+	position: relative;
+	left: -30px;
+}
 
  /*利用JSON控制生成的 页面样式结束部分*/
+
 .liu_bottom1{
 	height: 227px;
 	width: 1109px;

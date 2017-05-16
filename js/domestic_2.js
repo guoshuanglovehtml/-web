@@ -87,12 +87,13 @@ function GetId(id){
          GetId('Dg_Page').onclick=function (){
             GetId('Dg_Click_Event').innerHTML='';
             Lis.innerHTML='';
-            GetId('Next_Page').onclick=null;
+            
             var sqrt=Target=36;
             AddGoods(sqrt);
             var oDl1=parseInt(sqrt/4);
             Colr(oDl1);
             MoveLeft(oDl1,Page);
+            GetId('Next_Page').onclick=null;
             
          }
         // 下一页点击事件
@@ -128,7 +129,7 @@ function GetId(id){
             MoveLeft(oDl2,Page);
         }
         //输入框确认 点击事件事件
-        GetId('Dg_Btn').onclick=function(){
+        GetId('Page').onblur=function(){
             var NewPage=parseInt(GetId('Page').value);
             if(NewPage){
                 GetId('Dg_Click_Event').innerHTML='';
