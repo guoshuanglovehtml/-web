@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>国外二级页</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/Foreign_2page.css">
+    <link href="css/slideStyle.css" rel="stylesheet">
+    <script type="text/javascript" src="js/Foreign_2page.js"></script>
+	<script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery-slideShow.js"></script>
+
+</head>
+<body>
+<!-- 导航条开始 -->
+<div class="top_bg">
+	<div class="top">
+		<div class="logo"><img src="img/slice/LOGO123-01.png"></div>
+		<div class="nav">
+			<a href="index.html">首页</a>
+      <a href="hot.html">热门推荐</a>
+      <a href="go with.html">社区交友</a>
+
+      <a href="Domestic.html">国内游</a>
+      <a href="freignren.html" class="grogshop">国外游</a>
+      <a href="theme_1.html">主题游</a>
+
+      <a href="grogshop.html" >酒店</a>
+      <a href="Purchase table login.html">交通方式</a>
+      <a href="javascript:;">医疗保险</a>
+		</div>
+
+		<div class="top_right">
+		    <a href=""><img src="img/slice/QQ1LIK.png"></a>
+            <a href=""><img src="img/slice/微信图标-01-拷贝@3x.png" class="weixin"></a>
+		    
+		    <a href="" class="Lrs">登录</a>
+		    <a href="" class="Lrs">注册</a>
+            
+            <a href=""><img src="img/slice/定位-01-拷贝@2x.png" class="site"></a>
+            <a href="" class="Lrs">洛阳</a>
+		</div>
+
+	</div>
+</div>
+<!-- 导航条结束 -->
+
+
+
+<!-- center_content开始部分 -->
+       <div class="liu_top">
+		   <span>首页</span>
+		   <span>&gt;</span>
+		   <span>国外游</span>
+		   <span>&gt;</span>
+		   <span>澳大利亚</span>
+	    </div>
+        <!-- 中间大图轮播部分开始 -->
+	  <div class="liu_big">
+           <div class="box">
+           <div id="text" style="height:600px width:1200px">
+           </div>
+          </div>
+	  </div>
+	 <!--  中间大图轮播部分结束 -->
+
+	    <!-- 按热度 城市 季节价格分配开始部分 -->
+      <div class="liu_middle">
+         <ul class="liu_middleUl">
+         	<li>
+         		<span>按热度</span>
+         		<span>全部</span>
+                 <span><a href="javascript:;">大堡礁</a></span>
+                 <span><a href="javascript:;">皇家植物园</a></span>
+                 <span><a href="javascript:;">悉尼歌剧院</a></span>
+                 <span><a href="javascript:;">达令港</a></span>
+                 <span><a href="javascript:;">大洋路</a></span>
+                 <span><a href="javascript:;">冲浪者的天堂</a></span>
+                 <span><a href="javascript:;">唐人街</a></span>
+                 <span><a href="javascript:;">悉尼海港大桥</a></span>
+                 <span><a href="javascript:;">岩石区</a></span>
+                 <span><a href="javascript:;">海德公园</a></span>
+                 <span><a href="javascript:;">></a></span>
+         	</li>
+         	<li>
+         		<span>按城市</span>
+         		<span>全部</span>
+                     <span><a href="javascript:;">悉尼</a></span>
+                     <span><a href="javascript:;">墨尔本</a></span>
+                     <span><a href="javascript:;">布里斯班</a></span>
+                     <span><a href="javascript:;">堪培拉</a></span>
+                     <span><a href="javascript:;">达尔文</a></span>
+                     <span><a href="javascript:;">宿迁</a></span>
+                     <span><a href="javascript:;">阿德莱德</a></span>
+                     <span><a href="javascript:;">黄金海岸</a></span>
+                     <span><a href="javascript:;">></a></span>
+         	</li>
+         	<li>
+         		<span>按季节</span>
+         		<span>全部</span>
+                     <span><a href="javascript:;">一月</a></span>
+                     <span><a href="javascript:;">二月</a></span>
+                     <span><a href="javascript:;">三月</a></span>
+                     <span><a href="javascript:;">四月</a></span>
+                     <span><a href="javascript:;">五月</a></span>
+                     <span><a href="javascript:;">六月</a></span>
+                     <span><a href="javascript:;">七月</a></span>
+                     <span><a href="javascript:;">八月</a></span>
+                     <span><a href="javascript:;">九月</a></span>
+                     <span><a href="javascript:;">十月</a></span>
+                     <span><a href="javascript:;">十一月</a></span>
+                     <span><a href="javascript:;">十二月</a></span>
+         	</li>
+         	<li>
+         		<span>按价格</span>
+         		<span><input type="text"/>¥</span>
+         		<span class="liu_">—</span> 
+                <span><input type="text"/>¥</span>    
+         	</li>
+         </ul>
+      </div>
+      <!-- 按热度 城市 季节价格分配结束部分 -->
+
+      <!-- 利用JSON控制生成的 页面开始部分 -->
+      <div class="liu_JScontrl">
+   	        <ul id="liu_JSON">
+   	        </ul>
+
+   	        <!-- 页数的跳转部分 -->
+   	        <div class="liu_Pages">
+   	           <div id="liu_firstPage">首页</div>
+   	        	<div class="yw_page" id="Previous_Page">上一页
+                </div>
+                    <div>
+                        <ol id="Dg_Click_Event"></ol>
+                    </div>
+                    <div id="liu_none">
+                         <span>......10页</span>
+                     </div>
+                    <div class="yw_page" id="Next_Page">下一页</div>
+                     
+                    <div class="addpage">
+                    <span id="Dg_Page">尾页</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;第&nbsp;&nbsp;<input  class="page_input" type="text" id="Page">&nbsp;&nbsp;页
+                    </div>
+   	        </div>
+      </div>
+      <!-- 利用JSON控制生成的 页面结束部分 -->
+ <!-- center_content结束部分 -->
+<!--footer开始-->
+<div class="footer">
+    <div class="footer_top">
+        <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="javascript:;">我们走介绍</a></dd>
+                    <dd><a href="javascript:;">招贤纳士</a></dd>
+                    <dd><a href="javascript:;">网站荣誉</a></dd>
+                    <dd><a href="javascript:;">联系我们</a></dd>
+        </dl>>
+
+        <dl id="scd">
+                    <dt>商家服务</dt>
+                    <dd><a href="javascript:;">我们走营销</a></dd>
+                    <dd><a href="javascript:;">商家登录</a></dd>
+        </dl>>
+
+        <dl id="trd">
+                    <dt>新手上路</dt>
+                    <dd><a href="javascript:;">预定帮助</a></dd>
+                    <dd><a href="javascript:;">服务条款</a></dd>
+                    <dd><a href="javascript:;">版权声明</a></dd>
+        </dl>>
+
+        <dl class="f_last">
+                    <dt>合作伙伴</dt>
+                    <dd><a href="javascript:;">中国旅游局</a></dd>
+                    <dd><a href="javascript:;">途牛网旅游</a></dd>
+                    <dd><a href="javascript:;">[全部]</a></dd>
+        </dl>>
+
+        <dl class="f_last last">
+                    <dd><a href="javascript:;">阳光旅游</a></dd>
+                    <dd><a href="javascript:;">乐途网旅游</a></dd>
+        </dl>>
+
+        <dl class="f_last lasts">
+            <dd><a href="javascript:;">人民日报网</a></a></dd>           
+        </dl>
+        
+        <div class="QR_code">
+          <img src="img/slice/timg.jpg" class="wei_xin"/>
+          <img src="img/slice/LOGO123-01.png" class="lo_go"/>
+        </div>
+        
+    </div>
+            
+    <div class="footer_bottom">
+                <img src="img/slice/LOGO123-01.png" style="width: 70px;height: 50px;"/>
+                <p>京ICP备12008866号广电节目制作许可证：1314号 &nbsp;&nbsp;&nbsp;京公网
+                <img src="img/slice/end.jpg" style="width: 16px; height: 16px; position: relative; top: 3px; display: inline-block;"/> 1101050200号</p>
+
+                <p>copyright &nbsp;&copy; 2005 - 2016 &nbsp;Lotour.com&nbsp;All&nbsp;Rights&nbsp;Riserved. 我们走旅游网 版权所有</p>
+    </div>
+</div>
+
+<div class="Foot_di">
+    <img src="img/slice/LOGO123-01.png" style="width: 70px;height: 40px;"/>
+
+    <div>
+     <p class="p_1">
+     <span class="span_1">Spec with</span>
+     <span class="span_2">MarkMan 2</span>
+     </p>
+
+     <a href="javascript:"><p class="p_2">getmarkman.com</p></a>
+    </div>
+</div>
+<!--footer结束-->
+
+
+<script type="text/javascript">
+$(function () {
+    var image=['img/FS_page/banner_2.jpg','img/FS_page/banner_1.jpg','img/FS_page/banner_3.jpg',
+    ];
+    var href=[];
+    $("#text").slide({images:image,//必选
+        autoPlay:true,
+        href:href,
+        height:366,//可指定轮播图高度
+        width:602,
+      interval:5000});
+
+
+       var img_2 = document.getElementById('text').children[0].children[1];
+      console.log(img_2);
+
+      var spans=document.createElement('span');
+      spans.innerHTML = "多日游";
+      spans.className = "spans";
+      img_2.appendChild(spans);
+      // console.log(spans);
+
+      var div_sub = document.createElement("div");
+      div_sub.className = "div_sub";
+      img_2.appendChild(div_sub);
+
+       var SP=document.createElement('span');
+       SP.innerHTML="<澳大利亚>大碉堡 带你领略海底世界";
+       SP.className='SP';
+       div_sub.appendChild(SP);
+
+        var SP1=document.createElement('span');
+       SP1.innerHTML="￥988";
+       SP1.className='SP1';
+       div_sub.appendChild(SP1);
+
+    var SP2=document.createElement('p');
+       SP2.innerHTML="立即预定";
+       SP2.className='SP2';
+       div_sub.appendChild(SP2);
+})
+
+</script>
+
+
+
+</body>
+</html>
