@@ -71,16 +71,9 @@ window.onload=function(){
 			plays1.appendChild(picW);
 			
 			var pic_Cs=document.createElement("div");
-			pic_Cs.className="pic_C1";				
+			pic_Cs.className="pic_ss";				
 			pic_Cs.innerHTML=dataArry_dibiao[0].contd;
-			picW.onmouseover=function(){
-				this.appendChild(pic_Cs);
-				
-	}
-			picW.onmouseout=function(){
-				this.children[0].remove();
-			}
-			
+				picW.appendChild(pic_Cs);			
 			
 			var pic1=document.createElement("div");
 			pic1.className="pic1";
@@ -92,15 +85,10 @@ window.onload=function(){
 			pic1.appendChild(pic_C1);
 	    
         var hover1=document.createElement("div")
-        hover1.className="pic_C2"
+        hover1.className="pic_ds"
         hover1.innerHTML=dataArry_dibiao[1].contd;
-        pic_C1.onmouseover=function(){
-        	this.appendChild(hover1)
-        }
+        	pic_C1.appendChild(hover1)
         
-        pic_C1.onmouseout=function(){
-				this.children[0].remove();
-			}
         
         var pic_C2=document.createElement("div");
         pic_C2.style.backgroundImage="url("+dataArry_dibiao[2].image1+")"
@@ -108,14 +96,10 @@ window.onload=function(){
 			pic1.appendChild(pic_C2);
 	    
         var hover2=document.createElement("div")
-        hover2.className="pic_C3"
+        hover2.className="pic_sd"
         hover2.innerHTML=dataArry_dibiao[2].contd;
-        pic_C2.onmouseover=function(){
-        	this.appendChild(hover2)
-        }
-        pic_C2.onmouseout=function(){
-				this.children[0].remove();
-			}
+        	pic_C2.appendChild(hover2)
+        
         
         var pic2=document.createElement("div");
 			pic2.className="pic1";
@@ -127,14 +111,10 @@ window.onload=function(){
 			pic2.appendChild(pic_C3);
 	    
         var hover3=document.createElement("div")
-        hover3.className="pic_C2"
+        hover3.className="pic_ds"
         hover3.innerHTML=dataArry_dibiao[3].contd;
-        pic_C3.onmouseover=function(){
-        	this.appendChild(hover3)
-        }
-        pic_C3.onmouseout=function(){
-				this.children[0].remove();
-			}
+        	pic_C3.appendChild(hover3)
+        
         
         var pic_C4=document.createElement("div");
         pic_C4.style.backgroundImage="url("+dataArry_dibiao[4].image1+")"
@@ -142,14 +122,10 @@ window.onload=function(){
 			pic2.appendChild(pic_C4);
 	    
         var hover4=document.createElement("div")
-        hover4.className="pic_C3"
+        hover4.className="pic_sd"
         hover4.innerHTML=dataArry_dibiao[4].contd;
-        pic_C4.onmouseover=function(){
-        	this.appendChild(hover4)
-        }
-        pic_C4.onmouseout=function(){
-				this.children[0].remove();
-			}
+        	pic_C4.appendChild(hover4)
+	
 	
 	    var plays2=document.getElementById("plays2");
 			var pics=document.createElement("div");
@@ -158,14 +134,10 @@ window.onload=function(){
 			plays2.appendChild(pics);
 			
 			var pic_CR=document.createElement("div");
-			pic_CR.className="pic_C1";				
+			pic_CR.className="pic_ss";				
 			pic_CR.innerHTML=dataArry_dibiao[0].contd;
-			pics.onmouseover=function(){
-				this.appendChild(pic_CR);
-			}
-			pics.onmouseout=function(){
-				this.children[0].remove();
-			}
+				pics.appendChild(pic_CR);
+
 			
 			var pics1=document.createElement("div");
 			pics1.className="pic1";
@@ -178,14 +150,10 @@ window.onload=function(){
 			pics1.appendChild(pic_C5);
 	    
         var hover5=document.createElement("div")
-        hover5.className="pic_C2"
+        hover5.className="pic_ds"
         hover5.innerHTML=dataArry_dibiao[1].contd;
-        pic_C5.onmouseover=function(){
-        	this.appendChild(hover5)
-        }	
-        pic_C5.onmouseout=function(){
-				this.children[0].remove();
-			}
+        	pic_C5.appendChild(hover5)
+        	
         
        var pic_C6=document.createElement("div");
         pic_C6.style.backgroundImage="url("+dataArry_dibiao[2].image1+")"
@@ -193,14 +161,10 @@ window.onload=function(){
 			pics1.appendChild(pic_C6);
 	    
         var hover6=document.createElement("div")
-        hover6.className="pic_C3"
+        hover6.className="pic_sd"
         hover6.innerHTML=dataArry_dibiao[2].contd;
-        pic_C6.onmouseover=function(){
-        	this.appendChild(hover6)
-        } 
-        pic_C6.onmouseout=function(){
-				this.children[0].remove();
-			}
+        	pic_C6.appendChild(hover6)
+        	
         
        var pics2=document.createElement("div");
 			pics2.className="pic1";
@@ -213,14 +177,10 @@ window.onload=function(){
 			pics2.appendChild(pic_C7);
 	    
         var hover7=document.createElement("div")
-        hover7.className="pic_C2"
+        hover7.className="pic_ds"
         hover7.innerHTML=dataArry_dibiao[3].contd;
-        pic_C7.onmouseover=function(){
-        	this.appendChild(hover7)
-        }	
-        pic_C7.onmouseout=function(){
-				this.children[0].remove();
-			}
+        	pic_C7.appendChild(hover7)
+
         
         var pic_C8=document.createElement("div");
         pic_C8.style.backgroundImage="url("+dataArry_dibiao[4].image1+")"
@@ -228,14 +188,10 @@ window.onload=function(){
 			pics2.appendChild(pic_C8);
 	    
         var hover8=document.createElement("div")
-        hover8.className="pic_C3"
+        hover8.className="pic_sd"
         hover8.innerHTML=dataArry_dibiao[4].contd;
-        pic_C8.onmouseover=function(){
-        	this.appendChild(hover8)
-        }
-        pic_C8.onmouseout=function(){
-				this.children[0].remove();
-			}
+        	pic_C8.appendChild(hover8)
+	
 	
 	var playsd1=document.getElementById("playsd1");
 			var picW1=document.createElement("div");
@@ -244,14 +200,10 @@ window.onload=function(){
 			playsd1.appendChild(picW1);
 			
 			var pic_C=document.createElement("div");
-			pic_C.className="pic_CS";				
+			pic_C.className="pic_ss";				
 			pic_C.innerHTML=dataArry_lvyou[0].contd;
-			picW1.onmouseover=function(){
-				this.appendChild(pic_C);
-			}
-			picW1.onmouseout=function(){
-				this.children[0].remove();
-			}
+				picW1.appendChild(pic_C);
+
 			
 			var pic1=document.createElement("div");
 			pic1.className="picS1";
@@ -259,15 +211,11 @@ window.onload=function(){
 			playsd1.appendChild(pic1);
 			
 			var pic_C1=document.createElement("div");
-			pic_C1.className="pic_CS";				
+			pic_C1.className="pic_ss";				
 			pic_C1.innerHTML=dataArry_lvyou[1].contd;
-			pic1.onmouseover=function(){
-				this.appendChild(pic_C1);
-			}
-			pic_C1.onmouseout=function(){
-				this.children[0].remove();
-			}
-			
+				pic1.appendChild(pic_C1);
+
+
 			var pic2=document.createElement("div");
 			pic2.className="picS1";
 			playsd1.appendChild(pic2);
@@ -278,14 +226,10 @@ window.onload=function(){
 			pic2.appendChild(pic_C9);
 	    
         var hover9=document.createElement("div")
-        hover9.className="pic_C2"
+        hover9.className="pic_ds"
         hover9.innerHTML=dataArry_lvyou[0].contd;
-        pic_C9.onmouseover=function(){
-        	this.appendChild(hover9)
-        }
-        pic_C9.onmouseout=function(){
-				this.children[0].remove();
-			}
+        	pic_C9.appendChild(hover9)
+
         
 			var pic_Cw10=document.createElement("div");
         pic_Cw10.style.backgroundImage="url("+dataArry_lvyou[1].image1+")"
@@ -293,14 +237,10 @@ window.onload=function(){
 			pic2.appendChild(pic_Cw10);
 	    
         var hover10=document.createElement("div")
-        hover10.className="pic_C3"
+        hover10.className="pic_sd"
         hover10.innerHTML=dataArry_lvyou[1].contd;
-        pic_Cw10.onmouseover=function(){
-        	this.appendChild(hover10)
-        } 
-        pic_Cw10.onmouseout=function(){
-				this.children[0].remove();
-			}
+        	pic_Cw10.appendChild(hover10)
+
 	
 	var playsd2=document.getElementById("playsd2");
 			var picW2=document.createElement("div");
@@ -309,14 +249,10 @@ window.onload=function(){
 			playsd2.appendChild(picW2);
 			
 			var pic_C=document.createElement("div");
-			pic_C.className="pic_CS";				
+			pic_C.className="pic_ss";				
 			pic_C.innerHTML=pic_C.innerHTML=dataArry_lvyou[0].contd;
-			picW2.onmouseover=function(){
-				this.appendChild(pic_C);
-			}
-			picW2.onmouseout=function(){
-				this.children[0].remove();
-			}
+				picW2.appendChild(pic_C);
+
 			
 			var pic1=document.createElement("div");
 			pic1.className="picS1";
@@ -324,14 +260,10 @@ window.onload=function(){
 			playsd2.appendChild(pic1);
 			
 			var pic_C1=document.createElement("div");
-			pic_C1.className="pic_CS";				
+			pic_C1.className="pic_ss";				
 			pic_C1.innerHTML=dataArry_lvyou[1].contd;
-			pic1.onmouseover=function(){
-				this.appendChild(pic_C1);
-			}
-			pic1.onmouseout=function(){
-				this.children[0].remove();
-			}
+				pic1.appendChild(pic_C1);
+
 			
 			var pic2=document.createElement("div");
 			pic2.className="picS1";
@@ -343,14 +275,10 @@ window.onload=function(){
 			pic2.appendChild(pic_C9);
 	    
         var hover9=document.createElement("div")
-        hover9.className="pic_C2"
+        hover9.className="pic_ds"
         hover9.innerHTML=dataArry_lvyou[0].contd;
-        pic_C9.onmouseover=function(){
-        	this.appendChild(hover9)
-        }
-        pic_C9.onmouseout=function(){
-				this.children[0].remove();
-			}
+        	pic_C9.appendChild(hover9)
+
         
 			var pic_C10=document.createElement("div");
         pic_C10.style.backgroundImage="url("+dataArry_lvyou[1].image1+")"
@@ -358,14 +286,10 @@ window.onload=function(){
 			pic2.appendChild(pic_C10);
 	    
         var hover10=document.createElement("div")
-        hover10.className="pic_C3"
+        hover10.className="pic_sd"
         hover10.innerHTML=dataArry_lvyou[1].contd;
-        pic_C10.onmouseover=function(){
-        	this.appendChild(hover10)
-        }
-        pic_C10.onmouseout=function(){
-				this.children[0].remove();
-			}
+        	pic_C10.appendChild(hover10)
+
 	//内容区轮播
 	var box = document.getElementById("box");
     var screen = box.children[0];
