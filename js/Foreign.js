@@ -26,20 +26,20 @@
             var l1=document.getElementById('liao');
                  l1.onclick=function(){
                   l1.className="Liao";
+                  liao.style=" color: rgb(235, 97, 0)";
+                   liao_in.style="color:none";
                 var l2=document.getElementById('liao1').style.display="block";
                 var liao2=document.getElementById('liao2').style.display="none";  
-                 liao_in.className="";
-                 liao_in.style.position="absolute";
-                 liao_in.style.top="58px";
+                 
+
 
                   
             }
             var liao_in=document.getElementById('liao_in');
             liao_in.onclick=function(){
-                liao_in.className="Liao";
-                l1.className="";
-                liao.style.width="80px";
-               
+                liao_in.className="liao_in";
+                liao_in.style="color: rgb(235, 97, 0)";
+                liao.style="color:none";
                 var liao2=document.getElementById('liao2').style.display="block";
                 var l2=document.getElementById('liao1').style.display="none";
             }

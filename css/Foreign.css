@@ -221,7 +221,8 @@ img.site{
   position: relative;
   top: 1px;
  }
- 
+
+
 .liao_on{ 
   width:80px;
   height:50px; 
@@ -232,28 +233,31 @@ img.site{
 .Liao{
   width:80px;
   height:50px; 
- /* z-index:999;*/
-  color:#eb6100; 
+  /*color:#eb6100;*/
 }
-
+#Liao {
+  display: inline-block; 
+   width:80px;
+  height:50px; 
+  /*color:#eb6100;*/
+}
 #liao1{
-  position: relative;
-  margin-left: 100px;
-  margin-top: -42px;
+  position: absolute;
+  left: 100px;
+  top: 10px;
 }
 .liao_in{
-  position: relative;
-  top:-100px;
+   /*color:#eb6100;*/
   width:80px;
   height:50px;
   cursor: pointer;
 
  }
 #liao2{
-  position: relative;
   display: none;
-  margin-left: 100px;
-  margin-top: -27px;
+  position: absolute;
+  left: 100px;
+  top: 10px;
 }
 
 
