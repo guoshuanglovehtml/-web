@@ -23,6 +23,7 @@
                     divs[this.index].className = "liu_show";//这句是把DIV和BUTTON联系起来用的，一一对应的关系
                 }
             }
+            // liao_in.style="color:none";
             var l1=document.getElementById('liao');
                  l1.onclick=function(){
                   l1.className="Liao";
