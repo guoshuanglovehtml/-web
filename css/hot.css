@@ -385,15 +385,49 @@ img.site{
 	height: 302px;
 }
 
-.picS1,.pic_CS{
+.picS1,.pic_CS,.pic_ss{
 	width: 380px;
 	height: 634px;
 	margin-left: 30px;
 	float: left;
 }
-
+.pic_ss{
+	margin-left: 0;
+	position: relative;
+}
+.pic_ss h1{
+	text-align: center;
+	margin: 280px 0 0 0;
+	color: white;
+}
+.pic_ss span{
+	display: block;
+	width: 250px;
+	text-align: center;
+	position: absolute;
+	top: 570px;
+	left: 200px;
+	color: white;
+}
 .picS1:nth-child(1),.pic_CS:nth-child(1){
 	margin: 0;
+}
+
+.pic1:hover .pic_C1{
+	display: block;
+}
+
+.pic_ss,.pic_sd,.pic_ds{
+	display: none;
+}
+.pic1:hover .pic_ss,.picS1:hover .pic_ss{
+	display: block;
+}
+.pic_C2:hover .pic_ds{
+	display: block;
+}
+.pic_C3:hover .pic_sd{
+	display: block;
 }
 /*footer开始*/
 .footer{
