@@ -1,0 +1,599 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	width: 1924px;
+	font-family: "微软雅黑";
+	margin: 0 auto ;
+	padding-top: 68px;
+}
+
+/*导航条开始*/
+.top_bg{
+	width: 100%;
+	height: 68px;
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+  z-index: 9;
+}
+
+.top{
+	width: 1860px;
+	margin: 0 auto;
+
+	height: 68px;
+}
+
+/*logo*/
+.top .logo{
+	height: 48px;
+	margin-top: 10px;
+
+	float: left;
+	margin-right: 44px;
+
+	cursor: pointer;
+}
+
+.logo img{
+	height: 100%;
+}
+
+
+/*导航nav*/
+.nav{
+	float: left;
+	height:40px; 
+
+	line-height: 40px;
+	margin-top: 14px;
+}
+
+.nav a{
+	display: block;
+	float: left;
+	margin-right: 38px;
+	font-size: 22px;
+	color: #fff;
+
+}
+
+.nav a.grogshop{
+	border-bottom: 1px #eb6100 solid;
+  color: #eb6100;
+}
+
+/*右 信息部分 */
+.top_right{
+	float: right;
+
+	height:40px; 
+	line-height: 40px;
+
+	margin-top: 14px;
+
+	position: relative;
+	/*left: 20px;*/
+
+}
+
+
+/*QQ*/
+.top_right img{
+	width: 66px;
+	height: 70px;
+	
+	float: left;
+	position: relative;
+	top: -14px;
+}
+
+
+/*weixin*/
+img.weixin,img.site{
+	height: 40px;
+	width: 54px;
+	top: 0px;
+
+	margin-right: 30px;
+	margin-left: 8px;
+
+	/*border: 1px red solid;*/
+}
+
+
+/*地址*/
+img.site{
+	height: 40px;
+	width: 24px;
+	top: 0px;
+
+	margin-right: 16px;
+	margin-left: 0;
+
+	/*border: 1px red solid;*/
+}
+
+
+/*登录 注册 洛阳*/
+.Lrs{
+	display: block;
+	float: left;
+
+	margin-right:20px; 
+	font-size: 22px;
+
+	color: #fff;
+}
+
+
+/*导航条结束*/
+
+/*<!-- center_content样式部分 -->*/
+.liu_top{
+	margin-top:138px;
+	height: 16px;
+	width: 200px;
+	margin-left:376px;
+}
+.liu_top span{
+	float: left;
+	line-height:16px;
+	font-size:16px;
+	margin-left:6px;
+	text-align: center;
+}
+/*按热度 城市 季节价格分配样式开始部分*/
+.liu_big{
+  height:610px;
+  width: 1924px;
+  position:relative;
+  top:16px;
+  background-color: #f7f7f7;
+}
+
+.liu_middle{
+	width: 1204px;
+	margin-left: 378px;
+  margin-top: 16px;
+}
+.liu_middleUl{
+	padding-top:8px;
+}
+.liu_middle .liu_middleUl li{
+	height: 16.5px;
+	margin-top: 8px;
+}
+.liu_middle .liu_middleUl li span{
+	font-size: 14px;
+	margin-left: 10px;
+}
+.liu_middle .liu_middleUl li span:first-child{
+	font-size: 16px;
+	width: 50px;
+	float: left;
+	margin-left: 0;
+	height: 16.5px;
+	line-height: 16.5px;
+	text-align: center;
+	color:#222222;
+}
+.liu_middle .liu_middleUl li span:nth-child(2){
+	float: left;
+	width: 40px;
+	height: 16.5px;
+	line-height: 16.5px;
+	text-align: center;
+	color:white;
+	background-color:#c7c7c7; 
+}
+.liu_middle .liu_middleUl li a{
+	float: left;
+	height: 14px;
+	line-height:16px;
+	color:#222222;
+	margin-left: 10px;
+}
+.liu_middle .liu_middleUl li:last-child span{
+	float:left;
+}
+.liu_middle .liu_middleUl li:last-child .liu_{
+	position:relative;
+	top:-2px;
+}
+.liu_middle .liu_middleUl li:last-child span:nth-child(2){
+	color:#000;
+	height:14px;
+	width: 50px;
+	background-color: white;
+	border:1px solid gray;
+	position: relative;
+	left: -5px;
+}
+.liu_middle .liu_middleUl li:last-child input{
+	height: 12px;
+	width:35px;
+	border:none;
+	outline: none;
+	position: relative;
+	left:0px;
+	top:-3px;
+ }
+ .liu_middle .liu_middleUl li:last-child span:nth-child(3){
+    position: relative;
+    left:0px;
+    margin-left:5px;
+    font-size: 14px;
+ }
+ .liu_middle .liu_middleUl li:last-child span:nth-child(4){
+    height:14px;
+	width: 50px;
+	border:1px solid gray;
+ }
+ /*按热度 城市 季节价格分配样式结束部分*/
+ /*利用JSON控制生成的 页面样式开始部分*/
+ .liu_JScontrl{
+      width: 1204px;
+      margin-left: 378px;
+      padding-top:14px;
+      ;
+ }
+ .liu_JScontrl ul{
+ 	
+      	position: relative;
+      }
+     .liu_JScontrl ul li{
+     	height:274px;
+     	width:464px;
+     	margin-bottom:30px;
+     	position: relative;
+     	transform:scale(1,1);
+    	transition:all 1s ease 0s;
+     }
+      .liu_Img{
+      	height:274px;
+      	width:464px;
+      	z-index:1;
+      	position:absolute;
+      	top:0px;
+      	left:0px;
+      	
+      }
+      .liu_span{
+      	float: left;
+      	height:26px;
+      	width: 60px;
+      	background-color: #000;
+      	opacity: 0.36;
+      	color:#eeeae4;
+      	z-index: 999;
+      	position: absolute;
+      	top:2px;
+      	left:0px;
+      	
+      }
+      .liu_spanNone{
+      	display: none;
+      }
+      .liu_span_bottom{
+      	float: left;
+      	height: 50px;
+      	width: 464px;
+      	line-height:40px;
+      	background-color: #000;
+      	opacity: 0.38;
+      	position:absolute;
+      	top:222px;
+      	left:0px;
+      	color:white;
+      	z-index: 999;
+      }
+      .liu_span_bottom1{
+      	float: left;
+      	font-size:16px;
+      	position:absolute;
+      	top:255px;
+      	left: 10px;
+      	color:#eb6100;
+      	z-index:999;
+      }
+      .liu_JScontrl ul li:hover{
+       transform:scale(1.1,1.1);
+      }
+      .liu_jsonRight{
+      	height: 272px;
+      	width: 710px;
+        float: right;
+      	border:1px solid gray;
+      	position: relative;
+      }
+      .liu_jsonRight1{
+      	float: left;
+      	margin-left: 42px;
+      	font-size: 14px;
+      	margin-top:22px;
+      	color:#222222;
+
+      }
+      .liu_jsonRight2{
+      	float: right;
+      	margin-right: 42px;
+      	font-size: 14px;
+      	margin-top:20px;
+      	color:#222222;
+      }
+      .liu_jsonRight3{
+      	font-size: 16px;
+      	color:#222222;
+      	position: absolute;
+      	top:86px;
+      	left: 42px;
+      }
+      .liu_jsonRight4{
+      	float: left;
+      	font-size: 20px;
+      	color:#eb6100;
+      	position: absolute;
+      	bottom:94px;
+      	right:80px;
+      }
+      .liu_jsonRight5{
+      	position: absolute;
+      	bottom:94px;
+      	right: 30px;
+      	font-size: 14px;
+      	font-size: 14px;
+      	color:#222222;
+      }
+       .liu_jsonRight6{
+      	position: absolute;
+      	bottom:94px;
+      	right: 30px;
+      	font-size: 14px;
+      	color:#222222;
+      }
+      .liu_jsonRight7{
+      	float: left;
+      	font-size: 12px;
+      	color:#222222;
+      	position: absolute;
+      	bottom:16px;
+      	left:10px;
+      }
+      .liu_jsonRight8{
+      	float:right;
+      	height: 36px;
+      	width: 100px;
+      	text-align: center;
+      	line-height: 36px;
+      	background-color: #eb6100;
+      	border-radius:8px;
+      	color:white;
+      	font-size:20px;
+      	position: absolute;
+      	bottom:2px;
+      	right: 10px;
+      	cursor: pointer;
+      	
+      }
+      /*底部点击页面跳转样式部分开始*/
+      .liu_Pages{
+      	height:30px;
+      	line-height: 30px;
+      	text-align: center;
+      	width:800px;
+        margin: 32px 0 60px 330px;
+      }
+      .liu_Pages div{
+      	float: left;
+      	margin-left: 10px;
+      	cursor: pointer;
+      }
+  
+      .liu_Pages input{
+        width:20px;
+        height:20px;
+        border-radius:5px;
+        outline: none;
+
+      }
+      .Dg_Col{
+      	float: left;
+      	color: gray;
+      	height: 30px;
+      	width: 30px;
+      	text-align: center;
+      }
+
+  .Dg_Sort_Img{
+    display: block;
+    height:203px;
+    padding:17px 0 20px;
+    border:1px solid #000;
+}
+.Dg_Span_left{
+    font-weight: bold;
+    color:#CD3D41;
+}
+.Dg_Span_left,.Dg_Img_left,.Dg_Span_B{
+    float: left;
+}
+.Dg_Span_right,.Dg_Img_right{
+    float:right
+}
+.Dg_Span_P{
+    padding:0 0 7px ;
+    clear: both;
+}
+.Dg_Img_right,.Dg_Img_left{
+    width:25px;
+    height:25px;
+}
+.Dg_Img_right{
+    border-radius:50%;
+}
+
+
+  /*底部点击页面跳转样式部分结束*/
+ /*利用JSON控制生成的 页面样式结束部分*/
+/*center_content 结束*/
+/*footer开始*/
+.footer{
+  width: 100%;
+  height: 373px;
+  background-color: #333333;
+
+  /*float: left;*/
+}
+
+/*第一层*/
+.footer_top{
+  width: 1574px;
+  height: 214px;
+  border-bottom: solid 1px #666666;
+  padding-left: 350px;
+}
+
+.footer .footer_top dl{
+  width: 209px;
+  height: 166px;
+  float: left;
+  padding-top: 48px;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+
+/*商家*/
+#scd{
+  width: 201px;
+}
+
+/*新手*/
+#trd{
+  width: 205px;
+}
+.footer .footer_top dl dt{
+  color: #FFFFFF;
+}
+.footer .footer_top dl dd a:hover{
+  text-decoration: underline;
+}
+.footer .footer_top dl dd a{
+  color: #999999;
+}
+
+/*最后一栏*/
+.footer .footer_top .f_last{
+  width: 98px;
+}
+.footer .footer_top .last dd{
+  width: 95px;
+  position: relative;
+  top: 28px;
+}
+.footer .footer_top .lasts dd{
+  width: 103px;
+  position: relative;
+  top: 55px;
+}
+
+/*二维码*/
+.footer .footer_top .QR_code{
+  width: 130px; 
+  height: 130px;
+
+  margin-top: 42px;
+  margin-left: 30px;
+
+  float: left;
+  position: relative;
+}
+
+.QR_code .wei_xin{
+  width: 100%; 
+  height: 100%;
+  /*margin-top: 42px;*/
+}
+
+.QR_code  .lo_go{
+  position: absolute;
+  top: 40px;
+  left: 30px;
+
+
+  width: 70px;height: 50px;
+}
+
+
+/*第二层*/
+.footer .footer_bottom{
+  width: 1555px;
+  height: 122px;
+
+  padding-left: 352px;
+  padding-top: 32px;
+}
+
+.footer .footer_bottom p{
+  color: #999999;
+    font-size: 12px;
+
+    position: relative;
+    top: -60px;
+
+    margin-bottom: 24px;
+    margin-left: 100px;
+}
+
+/*第三层 最底*/
+.Foot_di{
+  float: left;
+
+  width: 100%;
+  height: 40px;
+  background-color: #222;
+
+  font-style: italic;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+  position: relative;
+}
+
+.Foot_di img{
+  height: 100%;
+  width: 50px;
+
+  float: left;
+}
+
+.Foot_di p{
+  width: 1918px;
+  position: relative;
+  top: 2px;
+  left: 6px;
+}
+
+.Foot_di .span_1{
+  color: #fff;
+}
+
+.Foot_di .span_2{
+  color: #eb9100;
+}
+
+.Foot_di .p_2{
+  width: 1902px;
+  color: #666;
+  left:22px;
+}
+/*footer结束*/
